@@ -80,3 +80,25 @@ modelComponent1.Refresh()
 model1.Edit()
 model1.Exit()
 Save(Overwrite=True)
+geometry1.Exit()
+model1.Edit()
+template2 = GetTemplate(
+    TemplateName="Harmonic Response",
+    Solver="ANSYS")
+system2 = template2.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometryComponent1 = system2.GetComponent(Name="Geometry")
+geometryComponent2 = system1.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system2,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system1)
+modelComponent2 = system2.GetComponent(Name="Model")
+modelComponent2.Refresh()
+model1.Exit()
+model2 = system2.GetContainer(ComponentName="Model")
+model2.Edit()
+model2.Edit()
+model2.Exit()
+Save(Overwrite=True)
