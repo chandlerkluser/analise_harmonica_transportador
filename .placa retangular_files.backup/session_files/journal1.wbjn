@@ -8,3 +8,62 @@ system1 = template1.CreateSystem()
 geometry1 = system1.GetContainer(ComponentName="Geometry")
 geometry1.Edit()
 Save(Overwrite=True)
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="Structural Steel")
+matl1 = material1.Duplicate(TargetContainer=engineeringData1)
+matl1.DisplayName = "Piezo"
+matlProp1 = matl1.CreateProperty(
+    Name="Elasticity",
+    Behavior="Orthotropic")
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Index=-1,
+    Variables=["Young's Modulus Z direction"],
+    Values=[["62400000000 [Pa]"]])
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Variables=["Poisson's Ratio XY"],
+    Values=[["0.28798"]])
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Variables=["Poisson's Ratio YZ"],
+    Values=[["0.45204"]])
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Variables=["Poisson's Ratio XZ"],
+    Values=[["0.45204"]])
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Variables=["Shear Modulus XY"],
+    Values=[["30000000000 [Pa]"]])
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Variables=["Shear Modulus YZ"],
+    Values=[["26000000000 [Pa]"]])
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Variables=["Shear Modulus XZ"],
+    Values=[["26000000000 [Pa]"]])
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Variables=["Young's Modulus X direction"],
+    Values=[["78560000000 [Pa]"]])
+matlProp1.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
+    Variables=["Young's Modulus Y direction"],
+    Values=[["78560000000 [Pa]"]])
+matlProp2 = matl1.GetProperty(Name="Density")
+matlProp2.SetData(
+    Variables=["Density"],
+    Values=[["4500 [kg m^-3]"]])
+Save(Overwrite=True)
+Save(Overwrite=True)

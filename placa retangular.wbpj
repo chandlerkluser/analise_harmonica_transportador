@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="7.1">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">2905</timestamp-max>
+    <timestamp-max valType="Int64">3582</timestamp-max>
     <framework-build-version valType="String">16.0.361.0</framework-build-version>
     <external-version-string valType="String">Release 16.0</external-version-string>
-    <last-saved-utc valType="String">12/21/2018 04:16:17</last-saved-utc>
+    <last-saved-utc valType="String">12/21/2018 04:34:11</last-saved-utc>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">Chandler Klüser@WORK-INTEL:C:\Users\Chandler Klüser\AppData\Local\Temp\WorkbenchLogs\CoreEvents4060.log</ArrayEntry>
     </logHistory>
@@ -424,7 +424,9 @@
 "73e0b722-7699-41d7-8cb1-c06f1ea29641": "/Units/Quantity:Quantity 365",
 "799d54f7-3a69-4fa1-8bf0-18ddd315120f": "/Units/Quantity:Quantity 366",
 "a3aa13ee-413b-4f2a-b6bd-8c07f37b1016": "/Units/Quantity:Quantity 367",
-"ae22abf9-84d4-4d7d-a524-7fefbe2b3ffb": "/Units/Quantity:Quantity 368"
+"ae22abf9-84d4-4d7d-a524-7fefbe2b3ffb": "/Units/Quantity:Quantity 368",
+"b2ff1097-bd71-4fb1-a6da-157a30433337": "/Parameters/Parameter:P3",
+"2ec2b779-eb37-4ad0-95c7-6980687c748b": "/Parameters/Parameter:P4"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -495,7 +497,78 @@
 "af579742-8e6f-4ae1-8172-6ac122aa5ed8": "/Geometry/Geometry:GeometryDataObject",
 "96990fb9-9669-4515-9678-dc55e4ba0777": "/Results/ExternalModelOutput:ExternalModelOutput",
 "75102343-8dbb-47e9-915a-3049994d3c8e": "/Geometry/ParameterAdapter1:DesignModelerParameter",
-"38bb43ca-3852-4ead-ac42-fd874a5843b6": "/Geometry/ParameterAdapter2:DesignModelerParameter"
+"38bb43ca-3852-4ead-ac42-fd874a5843b6": "/Geometry/ParameterAdapter2:DesignModelerParameter",
+"d675ffcd-1c18-43a2-9b3d-1bd5a21ebc6e": "/Engineering Data/Material:Piezo",
+"8d79e8fc-b5f2-48fd-8663-fc77ae5f93d9": "/Engineering Data/MaterialProperty:Compressive Ultimate Strength 1",
+"343d420e-99ed-4e47-884f-37b5e8c45ec1": "/Engineering Data/MaterialPropertyData:Compressive Ultimate Strength 1",
+"4e0a4683-bfeb-45ea-b024-13261ea39366": "/Engineering Data/MaterialVariable:Compressive Ultimate Strength 1",
+"a978a353-06d8-472a-a060-60f3d74e46b0": "/Engineering Data/MaterialProperty:Compressive Yield Strength 1",
+"a61f862c-6edb-419b-8bee-430d4e0047f1": "/Engineering Data/MaterialPropertyData:Compressive Yield Strength 1",
+"22c982f6-ce47-4c8e-95b0-d2c517f188d4": "/Engineering Data/MaterialVariable:Compressive Yield Strength 1",
+"711f4bc4-92ca-4110-b3fb-95ed2ad64d78": "/Engineering Data/MaterialProperty:Density 1",
+"5e9a7e0c-5175-4fe7-bc7c-16f2a3534e21": "/Engineering Data/MaterialPropertyData:Density 1",
+"293953bd-afc1-4d97-838a-f06c62333691": "/Engineering Data/MaterialVariable:Density 1",
+"7ee326bf-47f0-4731-b273-102809707965": "/Engineering Data/MaterialVariable:Temperature 6",
+"2dd23484-c4ce-4ec7-bba7-da33aaddc493": "/Engineering Data/MaterialProperty:Tensile Yield Strength 1",
+"4179aa11-bdfa-4461-ad01-08ffb451bdcb": "/Engineering Data/MaterialPropertyData:Tensile Yield Strength 1",
+"b6c021b7-6b6c-4070-9eca-637e1be480c2": "/Engineering Data/MaterialVariable:Tensile Yield Strength 1",
+"b67d2ab3-2a7e-47e2-be28-afdac579db69": "/Engineering Data/MaterialProperty:Tensile Ultimate Strength 1",
+"afeafa15-e8d1-438a-8b71-1cad0cfe1bac": "/Engineering Data/MaterialPropertyData:Tensile Ultimate Strength 1",
+"2fba25ec-2373-4365-86ce-2a07e7d8ea99": "/Engineering Data/MaterialVariable:Tensile Ultimate Strength 1",
+"943987b4-924c-49b8-864b-1d3fb443c314": "/Engineering Data/MaterialProperty:Coefficient of Thermal Expansion 1",
+"f1e34670-745e-4f12-8c44-e155436be1e6": "/Engineering Data/MaterialPropertyData:Coefficient of Thermal Expansion 1",
+"e7bf0260-6248-45c4-96cf-d31f8e444d04": "/Engineering Data/MaterialVariable:Coefficient of Thermal Expansion 1",
+"f4a2fe3f-dc52-489f-bb55-fad1dee96b72": "/Engineering Data/MaterialVariable:Temperature 7",
+"6725541e-29fb-4f64-83ec-e133d6477667": "/Engineering Data/MaterialPropertyData:Reference Temperature 1",
+"8e340d86-bd74-4165-8fe6-345d912a47f8": "/Engineering Data/MaterialVariable:Reference Temperature 1",
+"3ec30008-4c67-4d8e-a970-f246ec5b117e": "/Engineering Data/MaterialProperty:Specific Heat 1",
+"c93481fc-c6a8-4357-9ff3-42f0de094770": "/Engineering Data/MaterialPropertyData:Specific Heat 1",
+"aa217796-855d-49be-91e5-631e883c62ca": "/Engineering Data/MaterialVariable:Specific Heat 1",
+"c9052414-1e86-4722-9c58-722f553ad5ae": "/Engineering Data/MaterialVariable:Temperature 8",
+"c745aa98-ced2-45bc-a3a7-91e1548a0ab9": "/Engineering Data/MaterialProperty:Thermal Conductivity 1",
+"b3cc55bf-5c4a-4c55-a3f0-7536b44d9d15": "/Engineering Data/MaterialPropertyData:Thermal Conductivity 1",
+"5c0ad74e-5a16-430b-a31b-1f267defb759": "/Engineering Data/MaterialVariable:Thermal Conductivity 1",
+"e181823c-a002-45b4-82bb-a5e99c024860": "/Engineering Data/MaterialVariable:Temperature 9",
+"a2a98935-767a-4fbf-ab14-74449f8d225a": "/Engineering Data/MaterialProperty:Alternating Stress 1",
+"52cecb36-60f4-4357-a8be-02cd70a0ad56": "/Engineering Data/MaterialPropertyData:Alternating Stress 1",
+"7d1ee9f2-128f-4976-a893-0d5af8c2c78a": "/Engineering Data/MaterialVariable:Alternating Stress 1",
+"0d893324-b2dc-42f2-95dc-90e23ac1752d": "/Engineering Data/MaterialVariable:Cycles 1",
+"871ba89a-b431-4aa1-becd-0488fba91e8d": "/Engineering Data/MaterialVariable:Mean Stress 1",
+"0c78ec05-0d3e-468d-b71e-38b9eb8b741a": "/Engineering Data/MaterialProperty:Strain-Life Parameters 1",
+"3bc08988-e402-4fae-b1b9-25abdee2d7db": "/Engineering Data/MaterialPropertyData:Strain-Life Parameters 1",
+"cf1cfa4c-f8c5-4062-8d89-59e3a390a3e8": "/Engineering Data/MaterialVariable:Strength Coefficient 1",
+"d6f107dc-1f9f-4e10-bd4d-d03e84dcdeea": "/Engineering Data/MaterialVariable:Strength Exponent 1",
+"7940cae9-a349-401a-a452-52e9d1cfc029": "/Engineering Data/MaterialVariable:Ductility Coefficient 1",
+"19d06b7f-219b-4b2a-882e-993be0ae38cf": "/Engineering Data/MaterialVariable:Ductility Exponent 1",
+"9fb47fad-544a-4ea8-9b8e-ce1982701f23": "/Engineering Data/MaterialVariable:Cyclic Strength Coefficient 1",
+"f8807a7b-87c5-4ba3-a001-026932cf2215": "/Engineering Data/MaterialVariable:Cyclic Strain Hardening Exponent 1",
+"1961d035-c655-46e8-b623-4c1f1d58adcb": "/Engineering Data/MaterialProperty:Resistivity 1",
+"a014689c-0c0c-4765-82d6-a1661e263137": "/Engineering Data/MaterialPropertyData:Resistivity 1",
+"b0fa6566-4792-4321-a39b-2d42e7b4335f": "/Engineering Data/MaterialVariable:Resistivity 1",
+"a40814fa-f1e5-4c79-a83f-7ed336aee6ee": "/Engineering Data/MaterialVariable:Temperature 10",
+"df9f2c4f-d845-48d8-911d-85605867ecfe": "/Engineering Data/MaterialProperty:Elasticity 1",
+"94192574-afcc-46e3-b82a-cf0cf6d0e929": "/Engineering Data/MaterialPropertyData:Elasticity 1",
+"6e04ddcf-05c9-4709-987b-6f7377f121a5": "/Engineering Data/MaterialVariable:Temperature 11",
+"e7384eba-c9e8-480a-8936-b7279c7f9781": "/Engineering Data/MaterialVariable:Young's Modulus 1",
+"a77dcea5-4d65-45fc-9644-1bbc752a61dc": "/Engineering Data/MaterialVariable:Poisson's Ratio 1",
+"e11f3ff9-268d-47d1-9b08-3ee60f07c340": "/Engineering Data/MaterialVariable:Bulk Modulus 1",
+"b2ccce36-52a1-4a47-acdc-0228657e767e": "/Engineering Data/MaterialVariable:Shear Modulus 1",
+"bea75b1d-e425-43ce-a364-2dee2d610ba7": "/Engineering Data/MaterialPropertyData:Elasticity 2",
+"086fec02-ca1e-4698-8189-547124aaa990": "/Engineering Data/MaterialVariable:Temperature 12",
+"ffaf46b2-fb15-4e2e-930f-ab23a2b91279": "/Engineering Data/MaterialVariable:Young's Modulus X direction",
+"525c4c4d-0160-4132-a1c6-3aa3caee5817": "/Engineering Data/MaterialVariable:Young's Modulus Y direction",
+"e8cd8b7b-12b7-4a78-b6cf-dd33f94e7193": "/Engineering Data/MaterialVariable:Young's Modulus Z direction",
+"52ef7ece-512f-4bda-870d-b2fd395d50e8": "/Engineering Data/MaterialVariable:Poisson's Ratio XY",
+"6556f7bc-e612-4c7a-b8fe-71df6f284c2f": "/Engineering Data/MaterialVariable:Poisson's Ratio YZ",
+"7135a0ae-285c-40fa-aace-51d2260fa429": "/Engineering Data/MaterialVariable:Poisson's Ratio XZ",
+"15b39704-c939-425f-9a48-42f85e44a98a": "/Engineering Data/MaterialVariable:Shear Modulus XY",
+"7a4a2d83-7f2b-4c3e-ae7a-495a63fc703e": "/Engineering Data/MaterialVariable:Shear Modulus YZ",
+"c4c18bdd-b82d-4f63-bc8d-74bc46063f2e": "/Engineering Data/MaterialVariable:Shear Modulus XZ",
+"1d7a9d03-4236-4003-840a-cb5f80b3d771": "/Engineering Data/MaterialProperty:Relative Permeability 1",
+"1f20c68a-f2c5-472d-89c5-83a8dc0ddea4": "/Engineering Data/MaterialPropertyData:Relative Permeability 1",
+"5fe07677-433a-41cb-be6b-774f9b46adf2": "/Engineering Data/MaterialVariable:Relative Permeability 1",
+"6b0fce4d-365d-4527-8ec4-7a67897bcb05": "/Geometry/ParameterAdapter3:DesignModelerParameter",
+"82fd4616-04c4-4904-b164-46aa3d86c824": "/Geometry/ParameterAdapter4:DesignModelerParameter"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -560,14 +633,14 @@
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 1316, "Input": 2887, "Output": 1316}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1316, "Input": 2924, "Output": 1316}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <last-update-regen-times valType="String">{}</last-update-regen-times>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
-        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ErrorsOnLastUpdate": {}, "Parameters": {"$$4134761c-7161-42c0-9717-2d77628ccab4": "0.6 [m]", "$$728c3100-e2ac-4965-a844-7427473cbddf": "0.05 [m]"}, "ParameterErrors": {}, "CurrentValues": {"$$4134761c-7161-42c0-9717-2d77628ccab4": 0.6 [m], "$$728c3100-e2ac-4965-a844-7427473cbddf": 0.05 [m]}, "ParameterStatus": {"$$4134761c-7161-42c0-9717-2d77628ccab4": "UpToDate", "$$728c3100-e2ac-4965-a844-7427473cbddf": "UpToDate"}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": False, "UpdateOrder": 1}</member-data>
+        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ErrorsOnLastUpdate": {}, "Parameters": {"$$4134761c-7161-42c0-9717-2d77628ccab4": "0.6 [m]", "$$728c3100-e2ac-4965-a844-7427473cbddf": "0.05 [m]", "$$b2ff1097-bd71-4fb1-a6da-157a30433337": "0.05 [m]", "$$2ec2b779-eb37-4ad0-95c7-6980687c748b": "0.1 [m]"}, "ParameterErrors": {}, "CurrentValues": {"$$4134761c-7161-42c0-9717-2d77628ccab4": 0.6 [m], "$$728c3100-e2ac-4965-a844-7427473cbddf": 0.05 [m], "$$b2ff1097-bd71-4fb1-a6da-157a30433337": 0.05 [m], "$$2ec2b779-eb37-4ad0-95c7-6980687c748b": 0.1 [m]}, "ParameterStatus": {"$$4134761c-7161-42c0-9717-2d77628ccab4": "UpToDate", "$$728c3100-e2ac-4965-a844-7427473cbddf": "UpToDate", "$$b2ff1097-bd71-4fb1-a6da-157a30433337": "UpToDate", "$$2ec2b779-eb37-4ad0-95c7-6980687c748b": "UpToDate"}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": False, "UpdateOrder": 1}</member-data>
       </Object>
       <Object Name="/Parameters/Parameter:P1" Version="1.0">
         <class-type valType="String">Parameter</class-type>
@@ -578,6 +651,16 @@
         <class-type valType="String">Parameter</class-type>
         <object-name valType="String">P2</object-name>
         <member-data valType="String">{"DisplayText": "largura_placa", "Expression": "0.05 [m]", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": 0.05 [m], "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "IsParameterizable": True, "ReuseJournalVariables": False, "Constraints": None, "Max": None, "Min": None, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P3" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P3</object-name>
+        <member-data valType="String">{"DisplayText": "distancia_ponta_placa", "Expression": "0.05 [m]", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": 0.05 [m], "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "IsParameterizable": True, "ReuseJournalVariables": False, "Constraints": None, "Max": None, "Min": None, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P4" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P4</object-name>
+        <member-data valType="String">{"DisplayText": "comprimeto_piezo", "Expression": "0.1 [m]", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": 0.1 [m], "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "IsParameterizable": True, "ReuseJournalVariables": False, "Constraints": None, "Max": None, "Min": None, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}}</member-data>
       </Object>
       <ParameterToPropertyMap>
         <Parameter Name="/Parameters/Parameter:P1">
@@ -591,6 +674,20 @@
           <ParameterReference valType="String">728c3100-e2ac-4965-a844-7427473cbddf</ParameterReference>
           <LinkedEntityProperty>
             <EntityReference valType="String">38bb43ca-3852-4ead-ac42-fd874a5843b6</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P3">
+          <ParameterReference valType="String">b2ff1097-bd71-4fb1-a6da-157a30433337</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">6b0fce4d-365d-4527-8ec4-7a67897bcb05</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P4">
+          <ParameterReference valType="String">2ec2b779-eb37-4ad0-95c7-6980687c748b</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">82fd4616-04c4-4904-b164-46aa3d86c824</EntityReference>
             <Property valType="String">Value</Property>
           </LinkedEntityProperty>
         </Parameter>
@@ -785,7 +882,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2386, "Input": 1579, "Output": 1579}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3573, "Input": 1579, "Output": 1579}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <last-update-regen-times valType="String">{}</last-update-regen-times>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
