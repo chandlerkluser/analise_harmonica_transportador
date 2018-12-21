@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="7.1">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">3695</timestamp-max>
+    <timestamp-max valType="Int64">3812</timestamp-max>
     <framework-build-version valType="String">16.0.361.0</framework-build-version>
     <external-version-string valType="String">Release 16.0</external-version-string>
-    <last-saved-utc valType="String">12/21/2018 04:46:15</last-saved-utc>
+    <last-saved-utc valType="String">12/21/2018 05:21:10</last-saved-utc>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">Chandler Klüser@WORK-INTEL:C:\Users\Chandler Klüser\AppData\Local\Temp\WorkbenchLogs\CoreEvents4060.log</ArrayEntry>
     </logHistory>
@@ -428,7 +428,11 @@
 "d53a8363-f370-4586-965c-f18a6e02c9e3": "/Parameters/Parameter:P3",
 "1937ab05-cc14-476b-b578-1668ca8dece9": "/Parameters/Parameter:P4",
 "e100f08b-75d2-457c-b736-ffeddb3f1a6e": "/Parameters/Parameter:P5",
-"4d29f8e6-e7bb-4369-9895-40703cf9b7e0": "/Parameters/Parameter:P6"
+"4d29f8e6-e7bb-4369-9895-40703cf9b7e0": "/Parameters/Parameter:P6",
+"c5b4c1ad-d9dd-4070-85f7-8b53f138d068": "/FileContainer/FileReference:F4",
+"dfda33b5-8ce4-4d8e-9f74-2387739ad54e": "/FileContainer/FileReference:F6",
+"802e3670-a9a8-497a-bfaf-31f9fcf0aa6c": "/FileContainer/FileReference:F5",
+"d492e0b8-f05a-4497-960d-56a388f79cff": "/FileTypesContainer/FileType:MechanicalFileType"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -572,7 +576,11 @@
 "a3aaa7ae-9fe4-47a6-88c2-c9281e9720a2": "/Geometry/ParameterAdapter5:DesignModelerParameter",
 "cb45bd6b-e842-48b2-a7ba-4cdf8eed01e5": "/Geometry/ParameterAdapter6:DesignModelerParameter",
 "f989aed0-9d4f-4414-b57e-f9135a557946": "/Geometry/ParameterAdapter7:DesignModelerParameter",
-"3795e227-f2f3-4add-af36-3bf1d382af82": "/Geometry/ParameterAdapter8:DesignModelerParameter"
+"3795e227-f2f3-4add-af36-3bf1d382af82": "/Geometry/ParameterAdapter8:DesignModelerParameter",
+"318394d7-91d7-4e13-9d64-b6a07e16ff15": "/Model/MechanicalModel:MechanicalModel",
+"c3e9fe39-0d23-4c3b-99b0-6f72b1942c66": "/Setup/SimulationSetup:SetupObject for Structural|Modal|ANSYS",
+"46937720-9d76-4430-850a-d0261e8659f6": "/Solution/SimulationSolution:SolutionObject for Structural|Modal|ANSYS",
+"915631cf-92ce-49a0-b761-b5a7dd9f9490": "/Results/SimulationResults:ResultsObject for Structural|Modal|ANSYS"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -595,7 +603,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2905, "Input": 1312, "Output": 1312}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3730, "Input": 1312, "Output": 1312}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <last-update-regen-times valType="String">{}</last-update-regen-times>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
@@ -613,6 +621,21 @@
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F3</object-name>
         <member-data valType="String">{"DisplayText": "EngineeringData.xml", "FileType": $$7845314b-1cd8-4ba6-a890-e39f0815c470, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS\ENGD\EngineeringData.xml", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F4" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F4</object-name>
+        <member-data valType="String">{"DisplayText": "material.engd", "FileType": $$7845314b-1cd8-4ba6-a890-e39f0815c470, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS\ENGD\material.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F5" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F5</object-name>
+        <member-data valType="String">{"DisplayText": "SYS.engd", "FileType": $$7845314b-1cd8-4ba6-a890-e39f0815c470, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F6" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F6</object-name>
+        <member-data valType="String">{"DisplayText": "SYS.mechdb", "FileType": $$d492e0b8-f05a-4497-960d-56a388f79cff, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS.mechdb", "ReferenceCount": 1}</member-data>
       </Object>
     </Container>
     <Container Name="Messages" Version="1.0">
@@ -727,7 +750,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2898, "Input": 2729, "Output": 1318}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3697, "Input": 2729, "Output": 1318}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <last-update-regen-times valType="String">{}</last-update-regen-times>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
