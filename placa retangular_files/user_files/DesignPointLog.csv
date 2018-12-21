@@ -1,0 +1,12 @@
+﻿# 
+# This file is written by the ANSYS DesignXplorer add-in and contains the parameter values of the Design Points successfully updated by ANSYS Workbench.
+# Project name: placa retangular
+# Creation date: 12/21/2018 02:16:17
+# 
+# 12/21/2018 02:16:17
+# The parameters defined in the project are:
+# P1 - comprimento_placa [m],P2 - largura_placa [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2
+DP 0,0.6,0.05
