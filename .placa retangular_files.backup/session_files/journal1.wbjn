@@ -1,104 +1,75 @@
-﻿# encoding: utf-8
-# Release 16.0
-SetScriptVersion(Version="16.0.361")
+# encoding: utf-8
+# Release 19.2
+SetScriptVersion(Version="19.2.120")
 template1 = GetTemplate(
-    TemplateName="Modal",
+    TemplateName="Design Assessment",
     Solver="ANSYS")
 system1 = template1.CreateSystem()
 geometry1 = system1.GetContainer(ComponentName="Geometry")
-geometry1.Edit()
-Save(Overwrite=True)
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
 engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
 material1 = engineeringData1.GetMaterial(Name="Structural Steel")
 matl1 = material1.Duplicate(TargetContainer=engineeringData1)
-matl1.DisplayName = "Piezo"
-matlProp1 = matl1.CreateProperty(
-    Name="Elasticity",
-    Behavior="Orthotropic")
+matl1.DisplayName = "piezo"
+matlProp1 = matl1.GetProperty(Name="Density")
 matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Index=-1,
-    Variables=["Young's Modulus Z direction"],
-    Values=[["62400000000 [Pa]"]])
-matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Variables=["Poisson's Ratio XY"],
-    Values=[["0.28798"]])
-matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Variables=["Poisson's Ratio YZ"],
-    Values=[["0.45204"]])
-matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Variables=["Poisson's Ratio XZ"],
-    Values=[["0.45204"]])
-matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Variables=["Shear Modulus XY"],
-    Values=[["30000000000 [Pa]"]])
-matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Variables=["Shear Modulus YZ"],
-    Values=[["26000000000 [Pa]"]])
-matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Variables=["Shear Modulus XZ"],
-    Values=[["26000000000 [Pa]"]])
-matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Variables=["Young's Modulus X direction"],
-    Values=[["78560000000 [Pa]"]])
-matlProp1.SetData(
-    SheetName="Elasticity",
-    SheetQualifiers={"Behavior": "Orthotropic", "Field Variable Temperature": "Yes", "Field Variable _FVShearAngle": "No", "Field Variable _FVDegradationFactor": "No"},
-    Variables=["Young's Modulus Y direction"],
-    Values=[["78560000000 [Pa]"]])
-matlProp2 = matl1.GetProperty(Name="Density")
-matlProp2.SetData(
     Variables=["Density"],
     Values=[["4500 [kg m^-3]"]])
-Save(Overwrite=True)
-Save(Overwrite=True)
-Save(Overwrite=True)
+matlProp2 = matl1.CreateProperty(
+    Name="Elasticity",
+    Behavior="Orthotropic",
+    Qualifiers={"Definition": "", "Behavior": "Orthotropic"})
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Index=-1,
+    Variables=["Young's Modulus X direction"],
+    Values=[["78561000000 [Pa]"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Young's Modulus Y direction"],
+    Values=[["78561000000 [Pa]"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Young's Modulus Z direction"],
+    Values=[["62498000000 [Pa]"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Poisson's Ratio XY"],
+    Values=[["0.28798"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Poisson's Ratio YZ"],
+    Values=[["0.45204"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Poisson's Ratio XZ"],
+    Values=[["0.45204"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Shear Modulus XY"],
+    Values=[["30000000000 [Pa]"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Shear Modulus YZ"],
+    Values=[["26000000000 [Pa]"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Shear Modulus XZ"],
+    Values=[["26000000000 [Pa]"]])
 modelComponent1 = system1.GetComponent(Name="Model")
 modelComponent1.Refresh()
 model1 = system1.GetContainer(ComponentName="Model")
 model1.Edit()
-model1.Exit()
-geometry1.Edit()
-Save(Overwrite=True)
-Save(Overwrite=True)
-modelComponent1.Refresh()
-model1.Edit()
-model1.Exit()
-Save(Overwrite=True)
-geometry1.Exit()
-model1.Edit()
-template2 = GetTemplate(
-    TemplateName="Harmonic Response",
-    Solver="ANSYS")
-system2 = template2.CreateSystem(
-    Position="Right",
-    RelativeTo=system1)
-geometryComponent1 = system2.GetComponent(Name="Geometry")
-geometryComponent2 = system1.GetComponent(Name="Geometry")
-geometryComponent1.ReplaceWithShare(
-    TargetSystem=system2,
-    ComponentToShare=geometryComponent2,
-    SourceSystem=system1)
-modelComponent2 = system2.GetComponent(Name="Model")
-modelComponent2.Refresh()
-model1.Exit()
-model2 = system2.GetContainer(ComponentName="Model")
-model2.Edit()
-model2.Edit()
-model2.Exit()
 Save(Overwrite=True)
