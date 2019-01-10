@@ -1,0 +1,31 @@
+/COM,ANSYS RELEASE Release 19.2      BUILD 19.2      UP20180808       23:06:01
+
+ *** WARNING ***                         CP =       0.281   TIME= 23:06:02
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.281   TIME= 23:06:02
+ Contact element 127 is missing DOF VOLT (and possibly others) of        
+ underlying base element 1.  Similar mismatches may exist elsewhere,     
+ but checking for this is discontinued.                                  
+
+ *** WARNING ***                         CP =       0.312   TIME= 23:06:02
+ Maximum contact stiffness 6.936879481E+16 is too big which can cause an 
+ accuracy problem, you may scale the force units in the model.           
+
+ *** WARNING ***                         CP =       0.343   TIME= 23:06:02
+ The modal analysis has non-zero displacements defined, which will cause 
+ a load vector to be generated.  The load vector may be used by the      
+ mode superposition analyses.  This feature is not documented.           
+
+ *** WARNING ***                         CP =       0.858   TIME= 23:06:02
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.874   TIME= 23:06:03
+ Maximum contact stiffness 6.936879481E+16 is too big which can cause an 
+ accuracy problem, you may scale the force units in the model.           
+
+ *** WARNING ***                         CP =       0.889   TIME= 23:06:03
+ Maximum contact stiffness 6.936879481E+16 is too big which can cause an 
+ accuracy problem, you may scale the force units in the model.           
