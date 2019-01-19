@@ -1,0 +1,24 @@
+ 
+ *** ANSYS Connection for ACIS Log File ***
+ 
+   Version:    19.2 - ACIS 28.00
+   Build Date: 08/08/18
+   File:       C:\Users\chandler\AppData\Local\Temp\DISPOSITIVO VERSAO APDL.sab
+ 
+
+ Translation Summary:
+
+ Topological Entities:
+ Vertices:     92                 Loops:       0
+ Edges:       142                 Shells:      0
+ Faces:        72
+ B-reps:        9
+
+ Geometric Entities:
+ Curves:                        Surfaces:
+ NURBS:          0              NURBS:          0
+ Lines:          0              Planes:         0
+ Circles:        0              Cylinders:      0
+ Ellipses:       0              Cones:          0
+                                Spheres:        0
+                                Tori:           0

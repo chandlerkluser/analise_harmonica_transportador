@@ -1,0 +1,830 @@
+
+ *GET  _SAV1     FROM  common    ITEM=ERRCOM   INT  N=    6
+    VALUE=  5.00000000    
+
+ *GET  _SAV2     FROM  common    ITEM=ERRCOM   INT  N=    7
+    VALUE=  10000.0000    
+
+ PARAMETER _SAV3 =     0.000000000    
+
+ *GET  _SAV4     FROM  common    ITEM=ERTRKCM  INT  N=    1
+    VALUE=  5.00000000    
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                  5
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ALL ERRORS WRITTEN TO C:\Users\chandler\file.err                                                                                                                                                                                                                                          
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR
+
+ *GET  _Z1       FROM  ACTI  ITEM=KEYW PRIGES    VALUE=  0.00000000    
+
+ *IF  _z1                               ( =   0.00000     )  GT  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ELSE
+
+ KEYPOINT NUMBER =      1    0.128118      0.430000E-03 -0.193500    
+
+ KEYPOINT NUMBER =      2    0.144118      0.430000E-03 -0.193500    
+
+ KEYPOINT NUMBER =      3    0.146118      0.430000E-03 -0.195500    
+
+ KEYPOINT NUMBER =      4    0.126118      0.430000E-03 -0.195500    
+
+ KEYPOINT NUMBER =      5    0.136118     -0.957000E-02 -0.195500    
+
+ KEYPOINT NUMBER =      6    0.126118      0.430000E-03 -0.295500    
+
+ KEYPOINT NUMBER =      7    0.146118      0.430000E-03 -0.295500    
+
+ KEYPOINT NUMBER =      8    0.146118      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =      9    0.136118     -0.957000E-02 -0.191500    
+
+ KEYPOINT NUMBER =     10    0.126118      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =     11    0.118118      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =     12    0.118118      0.430000E-03 -0.188500    
+
+ KEYPOINT NUMBER =     13    0.136118      0.184300E-01 -0.188500    
+
+ KEYPOINT NUMBER =     14    0.154118      0.430000E-03 -0.188500    
+
+ KEYPOINT NUMBER =     15    0.154118      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =     16    0.149118      0.430000E-03 -0.183500    
+
+ KEYPOINT NUMBER =     17    0.123118      0.430000E-03 -0.183500    
+
+ KEYPOINT NUMBER =     18    0.123118      0.430000E-03 -0.133500    
+
+ KEYPOINT NUMBER =     19    0.149118      0.430000E-03 -0.133500    
+
+ KEYPOINT NUMBER =     20    0.136118      0.134300E-01 -0.183500    
+
+ KEYPOINT NUMBER =     21    0.138118     -0.245700E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     22    0.138118      0.254300E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     23    0.134118      0.254300E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     24    0.134118     -0.245700E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     25    0.123118     -0.245700E-01 -0.133500    
+
+ KEYPOINT NUMBER =     26    0.149118     -0.245700E-01 -0.133500    
+
+ KEYPOINT NUMBER =     27    0.149118      0.254300E-01 -0.133500    
+
+ KEYPOINT NUMBER =     28    0.123118      0.254300E-01 -0.133500    
+
+ LINE NUMBER    1 edge typ  1 keypts    2    1
+
+ LINE NUMBER    2 edge typ  1 keypts    2    3
+
+ LINE NUMBER    3 edge typ  1 keypts    4    3
+
+ LINE NUMBER    4 edge typ  1 keypts    4    1
+
+ LINE NUMBER    5 edge typ  1 keypts    1    2
+
+ LINE NUMBER    6 edge typ  1 keypts    5    4
+
+ LINE NUMBER    7 edge typ  1 keypts    3    5
+
+ LINE NUMBER    8 edge typ  1 keypts    4    6
+
+ LINE NUMBER    9 edge typ  1 keypts    7    3
+
+ LINE NUMBER   10 edge typ  1 keypts    7    6
+
+ LINE NUMBER   11 edge typ  1 keypts    8    2
+
+ LINE NUMBER   12 edge typ  1 keypts    8    9
+
+ LINE NUMBER   13 edge typ  1 keypts    9   10
+
+ LINE NUMBER   14 edge typ  1 keypts    1   10
+
+ LINE NUMBER   15 edge typ  1 keypts   12   11
+
+ LINE NUMBER   16 edge typ  1 keypts   12   13
+
+ LINE NUMBER   17 edge typ  1 keypts   13   14
+
+ LINE NUMBER   18 edge typ  1 keypts   15   14
+
+ LINE NUMBER   19 edge typ  1 keypts   15   11
+
+ LINE NUMBER   20 edge typ  1 keypts   16   14
+
+ LINE NUMBER   21 edge typ  1 keypts   17   16
+
+ LINE NUMBER   22 edge typ  1 keypts   12   17
+
+ LINE NUMBER   23 edge typ  1 keypts   14   12
+
+ LINE NUMBER   24 edge typ  1 keypts   18   17
+
+ LINE NUMBER   25 edge typ  1 keypts   19   18
+
+ LINE NUMBER   26 edge typ  1 keypts   16   19
+
+ LINE NUMBER   27 edge typ  1 keypts   16   20
+
+ LINE NUMBER   28 edge typ  1 keypts   20   17
+
+ LINE NUMBER   29 edge typ  1 keypts   21   22
+
+ LINE NUMBER   30 edge typ  1 keypts   23   22
+
+ LINE NUMBER   31 edge typ  1 keypts   23   24
+
+ LINE NUMBER   32 edge typ  1 keypts   21   24
+
+ LINE NUMBER   33 edge typ  1 keypts   25   24
+
+ LINE NUMBER   34 edge typ  1 keypts   26   25
+
+ LINE NUMBER   35 edge typ  1 keypts   21   26
+
+ LINE NUMBER   36 edge typ  1 keypts   19   26
+
+ LINE NUMBER   37 edge typ  1 keypts   27   19
+
+ LINE NUMBER   38 edge typ  1 keypts   22   27
+
+ LINE NUMBER   39 edge typ  1 keypts   28   23
+
+ LINE NUMBER   40 edge typ  1 keypts   28   18
+
+ LINE NUMBER   41 edge typ  1 keypts   18   25
+
+ LINE NUMBER   42 edge typ  1 keypts   18   19
+
+ LINE NUMBER   43 edge typ  1 keypts   27   28
+
+ LINE NUMBER   44 edge typ  1 keypts   11   15
+
+ LINE NUMBER   45 edge typ  1 keypts   10    8
+
+ LINE NUMBER   46 edge typ  1 keypts    6    7
+
+ AREA NUMBER    1 surf typ  1 num loops  1 max edge  4
+  Edges
+         1         2         3         4
+
+ AREA NUMBER    2 surf typ  1 num loops  1 max edge  5
+  Edges
+         5         4         6         7         2
+
+ AREA NUMBER    3 surf typ  1 num loops  1 max edge  4
+  Edges
+         8         3         9        10
+
+ AREA NUMBER    4 surf typ  1 num loops  1 max edge  5
+  Edges
+         5        11        12        13        14
+
+ AREA NUMBER    5 surf typ  1 num loops  1 max edge  5
+  Edges
+        15        16        17        18        19
+
+ AREA NUMBER    6 surf typ  1 num loops  1 max edge  4
+  Edges
+        20        21        22        23
+
+ AREA NUMBER    7 surf typ  1 num loops  1 max edge  5
+  Edges
+        24        25        26        27        28
+
+ AREA NUMBER    8 surf typ  1 num loops  1 max edge  4
+  Edges
+        29        30        31        32
+
+ AREA NUMBER    9 surf typ  1 num loops  1 max edge  4
+  Edges
+        32        33        34        35
+
+ AREA NUMBER   10 surf typ  1 num loops  1 max edge  5
+  Edges
+        35        36        37        38        29
+
+ AREA NUMBER   11 surf typ  1 num loops  1 max edge  5
+  Edges
+        33        31        39        40        41
+
+ AREA NUMBER   12 surf typ  1 num loops  1 max edge  4
+  Edges
+        42        36        34        41
+
+ AREA NUMBER   13 surf typ  1 num loops  1 max edge  4
+  Edges
+        25        40        43        37
+
+ AREA NUMBER   14 surf typ  1 num loops  1 max edge  4
+  Edges
+        24        21        26        42
+
+ AREA NUMBER   15 surf typ  1 num loops  1 max edge  6
+  Edges
+        20        17        16        22        28        27
+
+ AREA NUMBER   16 surf typ  1 num loops  1 max edge  4
+  Edges
+        15        44        18        23
+
+ AREA NUMBER   17 surf typ  1 num loops  2 max edge  3
+  Edges
+        44        19         0        13        12        45
+
+ AREA NUMBER   18 surf typ  1 num loops  1 max edge  4
+  Edges
+         1        14        45        11
+
+ AREA NUMBER   19 surf typ  1 num loops  1 max edge  2
+  Edges
+        46        10
+
+ AREA NUMBER   20 surf typ  1 num loops  1 max edge  5
+  Edges
+         8        46         9         7         6
+
+ AREA NUMBER   21 surf typ  1 num loops  1 max edge  4
+  Edges
+        30        38        43        39
+
+ VOLUME NUMBER    1 num shells  1 max area 21
+  Areas
+         8        21        11         9        10        13        12         7
+        14        15         6         5        16        19        20        17
+         4         3         2        18         1
+
+ KEYPOINT NUMBER =     29    0.126118      0.430000E-03 -0.301850    
+
+ KEYPOINT NUMBER =     30    0.126118      0.430000E-03 -0.295500    
+
+ KEYPOINT NUMBER =     31    0.146118      0.430000E-03 -0.295500    
+
+ KEYPOINT NUMBER =     32    0.146118      0.430000E-03 -0.301850    
+
+ LINE NUMBER   47 edge typ  1 keypts   30   29
+
+ LINE NUMBER   48 edge typ  1 keypts   30   31
+
+ LINE NUMBER   49 edge typ  1 keypts   32   31
+
+ LINE NUMBER   50 edge typ  1 keypts   32   29
+
+ LINE NUMBER   51 edge typ  1 keypts   29   32
+
+ LINE NUMBER   52 edge typ  1 keypts   31   30
+
+ AREA NUMBER   22 surf typ  1 num loops  1 max edge  4
+  Edges
+        47        48        49        50
+
+ AREA NUMBER   23 surf typ  1 num loops  1 max edge  4
+  Edges
+        47        51        49        52
+
+ AREA NUMBER   24 surf typ  1 num loops  1 max edge  2
+  Edges
+        51        50
+
+ AREA NUMBER   25 surf typ  1 num loops  1 max edge  2
+  Edges
+        48        52
+
+ VOLUME NUMBER    2 num shells  1 max area  4
+  Areas
+        24        25        23        22
+
+ KEYPOINT NUMBER =     33    0.126118      0.430000E-03 -0.308200    
+
+ KEYPOINT NUMBER =     34    0.126118      0.430000E-03 -0.301850    
+
+ KEYPOINT NUMBER =     35    0.146118      0.430000E-03 -0.301850    
+
+ KEYPOINT NUMBER =     36    0.146118      0.430000E-03 -0.308200    
+
+ LINE NUMBER   53 edge typ  1 keypts   34   33
+
+ LINE NUMBER   54 edge typ  1 keypts   34   35
+
+ LINE NUMBER   55 edge typ  1 keypts   36   35
+
+ LINE NUMBER   56 edge typ  1 keypts   36   33
+
+ LINE NUMBER   57 edge typ  1 keypts   33   36
+
+ LINE NUMBER   58 edge typ  1 keypts   35   34
+
+ AREA NUMBER   26 surf typ  1 num loops  1 max edge  4
+  Edges
+        53        54        55        56
+
+ AREA NUMBER   27 surf typ  1 num loops  1 max edge  4
+  Edges
+        53        57        55        58
+
+ AREA NUMBER   28 surf typ  1 num loops  1 max edge  2
+  Edges
+        57        56
+
+ AREA NUMBER   29 surf typ  1 num loops  1 max edge  2
+  Edges
+        54        58
+
+ VOLUME NUMBER    3 num shells  1 max area  4
+  Areas
+        28        29        27        26
+
+ KEYPOINT NUMBER =     37    0.126118      0.430000E-03 -0.358200    
+
+ KEYPOINT NUMBER =     38    0.126118      0.430000E-03 -0.308200    
+
+ KEYPOINT NUMBER =     39    0.146118      0.430000E-03 -0.308200    
+
+ KEYPOINT NUMBER =     40    0.146118      0.430000E-03 -0.358200    
+
+ LINE NUMBER   59 edge typ  1 keypts   38   37
+
+ LINE NUMBER   60 edge typ  1 keypts   38   39
+
+ LINE NUMBER   61 edge typ  1 keypts   40   39
+
+ LINE NUMBER   62 edge typ  1 keypts   40   37
+
+ LINE NUMBER   63 edge typ  1 keypts   37   40
+
+ LINE NUMBER   64 edge typ  1 keypts   39   38
+
+ AREA NUMBER   30 surf typ  1 num loops  1 max edge  4
+  Edges
+        59        60        61        62
+
+ AREA NUMBER   31 surf typ  1 num loops  1 max edge  4
+  Edges
+        59        63        61        64
+
+ AREA NUMBER   32 surf typ  1 num loops  1 max edge  2
+  Edges
+        63        62
+
+ AREA NUMBER   33 surf typ  1 num loops  1 max edge  2
+  Edges
+        60        64
+
+ VOLUME NUMBER    4 num shells  1 max area  4
+  Areas
+        32        33        31        30
+
+ KEYPOINT NUMBER =     41   -0.229122      0.430000E-03 -0.193500    
+
+ KEYPOINT NUMBER =     42   -0.213122      0.430000E-03 -0.193500    
+
+ KEYPOINT NUMBER =     43   -0.211122      0.430000E-03 -0.195500    
+
+ KEYPOINT NUMBER =     44   -0.231122      0.430000E-03 -0.195500    
+
+ KEYPOINT NUMBER =     45   -0.221122     -0.957000E-02 -0.195500    
+
+ KEYPOINT NUMBER =     46   -0.231122      0.430000E-03 -0.295500    
+
+ KEYPOINT NUMBER =     47   -0.211122      0.430000E-03 -0.295500    
+
+ KEYPOINT NUMBER =     48   -0.211122      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =     49   -0.221122     -0.957000E-02 -0.191500    
+
+ KEYPOINT NUMBER =     50   -0.231122      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =     51   -0.239122      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =     52   -0.239122      0.430000E-03 -0.188500    
+
+ KEYPOINT NUMBER =     53   -0.221122      0.184300E-01 -0.188500    
+
+ KEYPOINT NUMBER =     54   -0.203122      0.430000E-03 -0.188500    
+
+ KEYPOINT NUMBER =     55   -0.203122      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =     56   -0.208122      0.430000E-03 -0.183500    
+
+ KEYPOINT NUMBER =     57   -0.234122      0.430000E-03 -0.183500    
+
+ KEYPOINT NUMBER =     58   -0.234122      0.430000E-03 -0.133500    
+
+ KEYPOINT NUMBER =     59   -0.208122      0.430000E-03 -0.133500    
+
+ KEYPOINT NUMBER =     60   -0.221122      0.134300E-01 -0.183500    
+
+ KEYPOINT NUMBER =     61   -0.219122     -0.245700E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     62   -0.219122      0.254300E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     63   -0.223122      0.254300E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     64   -0.223122     -0.245700E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     65   -0.234122     -0.245700E-01 -0.133500    
+
+ KEYPOINT NUMBER =     66   -0.208122     -0.245700E-01 -0.133500    
+
+ KEYPOINT NUMBER =     67   -0.208122      0.254300E-01 -0.133500    
+
+ KEYPOINT NUMBER =     68   -0.234122      0.254300E-01 -0.133500    
+
+ LINE NUMBER   65 edge typ  1 keypts   42   41
+
+ LINE NUMBER   66 edge typ  1 keypts   42   43
+
+ LINE NUMBER   67 edge typ  1 keypts   44   43
+
+ LINE NUMBER   68 edge typ  1 keypts   44   41
+
+ LINE NUMBER   69 edge typ  1 keypts   41   42
+
+ LINE NUMBER   70 edge typ  1 keypts   45   44
+
+ LINE NUMBER   71 edge typ  1 keypts   43   45
+
+ LINE NUMBER   72 edge typ  1 keypts   44   46
+
+ LINE NUMBER   73 edge typ  1 keypts   47   43
+
+ LINE NUMBER   74 edge typ  1 keypts   47   46
+
+ LINE NUMBER   75 edge typ  1 keypts   48   42
+
+ LINE NUMBER   76 edge typ  1 keypts   48   49
+
+ LINE NUMBER   77 edge typ  1 keypts   49   50
+
+ LINE NUMBER   78 edge typ  1 keypts   41   50
+
+ LINE NUMBER   79 edge typ  1 keypts   52   51
+
+ LINE NUMBER   80 edge typ  1 keypts   52   53
+
+ LINE NUMBER   81 edge typ  1 keypts   53   54
+
+ LINE NUMBER   82 edge typ  1 keypts   55   54
+
+ LINE NUMBER   83 edge typ  1 keypts   55   51
+
+ LINE NUMBER   84 edge typ  1 keypts   56   54
+
+ LINE NUMBER   85 edge typ  1 keypts   57   56
+
+ LINE NUMBER   86 edge typ  1 keypts   52   57
+
+ LINE NUMBER   87 edge typ  1 keypts   54   52
+
+ LINE NUMBER   88 edge typ  1 keypts   58   57
+
+ LINE NUMBER   89 edge typ  1 keypts   59   58
+
+ LINE NUMBER   90 edge typ  1 keypts   56   59
+
+ LINE NUMBER   91 edge typ  1 keypts   56   60
+
+ LINE NUMBER   92 edge typ  1 keypts   60   57
+
+ LINE NUMBER   93 edge typ  1 keypts   61   62
+
+ LINE NUMBER   94 edge typ  1 keypts   63   62
+
+ LINE NUMBER   95 edge typ  1 keypts   63   64
+
+ LINE NUMBER   96 edge typ  1 keypts   61   64
+
+ LINE NUMBER   97 edge typ  1 keypts   65   64
+
+ LINE NUMBER   98 edge typ  1 keypts   66   65
+
+ LINE NUMBER   99 edge typ  1 keypts   61   66
+
+ LINE NUMBER  100 edge typ  1 keypts   59   66
+
+ LINE NUMBER  101 edge typ  1 keypts   67   59
+
+ LINE NUMBER  102 edge typ  1 keypts   62   67
+
+ LINE NUMBER  103 edge typ  1 keypts   68   63
+
+ LINE NUMBER  104 edge typ  1 keypts   68   58
+
+ LINE NUMBER  105 edge typ  1 keypts   58   65
+
+ LINE NUMBER  106 edge typ  1 keypts   58   59
+
+ LINE NUMBER  107 edge typ  1 keypts   67   68
+
+ LINE NUMBER  108 edge typ  1 keypts   51   55
+
+ LINE NUMBER  109 edge typ  1 keypts   50   48
+
+ LINE NUMBER  110 edge typ  1 keypts   46   47
+
+ AREA NUMBER   34 surf typ  1 num loops  1 max edge  4
+  Edges
+        65        66        67        68
+
+ AREA NUMBER   35 surf typ  1 num loops  1 max edge  5
+  Edges
+        69        68        70        71        66
+
+ AREA NUMBER   36 surf typ  1 num loops  1 max edge  4
+  Edges
+        72        67        73        74
+
+ AREA NUMBER   37 surf typ  1 num loops  1 max edge  5
+  Edges
+        69        75        76        77        78
+
+ AREA NUMBER   38 surf typ  1 num loops  1 max edge  5
+  Edges
+        79        80        81        82        83
+
+ AREA NUMBER   39 surf typ  1 num loops  1 max edge  4
+  Edges
+        84        85        86        87
+
+ AREA NUMBER   40 surf typ  1 num loops  1 max edge  5
+  Edges
+        88        89        90        91        92
+
+ AREA NUMBER   41 surf typ  1 num loops  1 max edge  4
+  Edges
+        93        94        95        96
+
+ AREA NUMBER   42 surf typ  1 num loops  1 max edge  4
+  Edges
+        96        97        98        99
+
+ AREA NUMBER   43 surf typ  1 num loops  1 max edge  5
+  Edges
+        99       100       101       102        93
+
+ AREA NUMBER   44 surf typ  1 num loops  1 max edge  5
+  Edges
+        97        95       103       104       105
+
+ AREA NUMBER   45 surf typ  1 num loops  1 max edge  4
+  Edges
+       106       100        98       105
+
+ AREA NUMBER   46 surf typ  1 num loops  1 max edge  4
+  Edges
+        89       104       107       101
+
+ AREA NUMBER   47 surf typ  1 num loops  1 max edge  4
+  Edges
+        88        85        90       106
+
+ AREA NUMBER   48 surf typ  1 num loops  1 max edge  6
+  Edges
+        84        81        80        86        92        91
+
+ AREA NUMBER   49 surf typ  1 num loops  1 max edge  4
+  Edges
+        79       108        82        87
+
+ AREA NUMBER   50 surf typ  1 num loops  2 max edge  3
+  Edges
+       108        83         0        77        76       109
+
+ AREA NUMBER   51 surf typ  1 num loops  1 max edge  4
+  Edges
+        65        78       109        75
+
+ AREA NUMBER   52 surf typ  1 num loops  1 max edge  2
+  Edges
+       110        74
+
+ AREA NUMBER   53 surf typ  1 num loops  1 max edge  5
+  Edges
+        72       110        73        71        70
+
+ AREA NUMBER   54 surf typ  1 num loops  1 max edge  4
+  Edges
+        94       102       107       103
+
+ VOLUME NUMBER    5 num shells  1 max area 21
+  Areas
+        41        54        44        42        43        46        45        40
+        47        48        39        38        49        52        53        50
+        37        36        35        51        34
+
+ KEYPOINT NUMBER =     69   -0.231122      0.430000E-03 -0.301850    
+
+ KEYPOINT NUMBER =     70   -0.231122      0.430000E-03 -0.295500    
+
+ KEYPOINT NUMBER =     71   -0.211122      0.430000E-03 -0.295500    
+
+ KEYPOINT NUMBER =     72   -0.211122      0.430000E-03 -0.301850    
+
+ LINE NUMBER  111 edge typ  1 keypts   70   69
+
+ LINE NUMBER  112 edge typ  1 keypts   70   71
+
+ LINE NUMBER  113 edge typ  1 keypts   72   71
+
+ LINE NUMBER  114 edge typ  1 keypts   72   69
+
+ LINE NUMBER  115 edge typ  1 keypts   69   72
+
+ LINE NUMBER  116 edge typ  1 keypts   71   70
+
+ AREA NUMBER   55 surf typ  1 num loops  1 max edge  4
+  Edges
+       111       112       113       114
+
+ AREA NUMBER   56 surf typ  1 num loops  1 max edge  4
+  Edges
+       111       115       113       116
+
+ AREA NUMBER   57 surf typ  1 num loops  1 max edge  2
+  Edges
+       115       114
+
+ AREA NUMBER   58 surf typ  1 num loops  1 max edge  2
+  Edges
+       112       116
+
+ VOLUME NUMBER    6 num shells  1 max area  4
+  Areas
+        57        58        56        55
+
+ KEYPOINT NUMBER =     73   -0.231122      0.430000E-03 -0.308200    
+
+ KEYPOINT NUMBER =     74   -0.231122      0.430000E-03 -0.301850    
+
+ KEYPOINT NUMBER =     75   -0.211122      0.430000E-03 -0.301850    
+
+ KEYPOINT NUMBER =     76   -0.211122      0.430000E-03 -0.308200    
+
+ LINE NUMBER  117 edge typ  1 keypts   74   73
+
+ LINE NUMBER  118 edge typ  1 keypts   74   75
+
+ LINE NUMBER  119 edge typ  1 keypts   76   75
+
+ LINE NUMBER  120 edge typ  1 keypts   76   73
+
+ LINE NUMBER  121 edge typ  1 keypts   73   76
+
+ LINE NUMBER  122 edge typ  1 keypts   75   74
+
+ AREA NUMBER   59 surf typ  1 num loops  1 max edge  4
+  Edges
+       117       118       119       120
+
+ AREA NUMBER   60 surf typ  1 num loops  1 max edge  4
+  Edges
+       117       121       119       122
+
+ AREA NUMBER   61 surf typ  1 num loops  1 max edge  2
+  Edges
+       121       120
+
+ AREA NUMBER   62 surf typ  1 num loops  1 max edge  2
+  Edges
+       118       122
+
+ VOLUME NUMBER    7 num shells  1 max area  4
+  Areas
+        61        62        60        59
+
+ KEYPOINT NUMBER =     77   -0.231122      0.430000E-03 -0.358200    
+
+ KEYPOINT NUMBER =     78   -0.231122      0.430000E-03 -0.308200    
+
+ KEYPOINT NUMBER =     79   -0.211122      0.430000E-03 -0.308200    
+
+ KEYPOINT NUMBER =     80   -0.211122      0.430000E-03 -0.358200    
+
+ LINE NUMBER  123 edge typ  1 keypts   78   77
+
+ LINE NUMBER  124 edge typ  1 keypts   78   79
+
+ LINE NUMBER  125 edge typ  1 keypts   80   79
+
+ LINE NUMBER  126 edge typ  1 keypts   80   77
+
+ LINE NUMBER  127 edge typ  1 keypts   77   80
+
+ LINE NUMBER  128 edge typ  1 keypts   79   78
+
+ AREA NUMBER   63 surf typ  1 num loops  1 max edge  4
+  Edges
+       123       124       125       126
+
+ AREA NUMBER   64 surf typ  1 num loops  1 max edge  4
+  Edges
+       123       127       125       128
+
+ AREA NUMBER   65 surf typ  1 num loops  1 max edge  2
+  Edges
+       127       126
+
+ AREA NUMBER   66 surf typ  1 num loops  1 max edge  2
+  Edges
+       124       128
+
+ VOLUME NUMBER    8 num shells  1 max area  4
+  Areas
+        65        66        64        63
+
+ KEYPOINT NUMBER =     81   -0.235420      0.254300E-01  0.150000E-02
+
+ KEYPOINT NUMBER =     82   -0.235420     -0.245700E-01  0.150000E-02
+
+ KEYPOINT NUMBER =     83    0.150280     -0.245700E-01  0.150000E-02
+
+ KEYPOINT NUMBER =     84    0.150280      0.254300E-01  0.150000E-02
+
+ KEYPOINT NUMBER =     85   -0.235420     -0.245700E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     86    0.150280     -0.245700E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     87   -0.235420      0.254300E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     88    0.150280      0.254300E-01 -0.150000E-02
+
+ LINE NUMBER  129 edge typ  1 keypts   81   82
+
+ LINE NUMBER  130 edge typ  1 keypts   83   82
+
+ LINE NUMBER  131 edge typ  1 keypts   83   84
+
+ LINE NUMBER  132 edge typ  1 keypts   84   81
+
+ LINE NUMBER  133 edge typ  1 keypts   82   85
+
+ LINE NUMBER  134 edge typ  1 keypts   86   85
+
+ LINE NUMBER  135 edge typ  1 keypts   86   83
+
+ LINE NUMBER  136 edge typ  1 keypts   85   87
+
+ LINE NUMBER  137 edge typ  1 keypts   88   87
+
+ LINE NUMBER  138 edge typ  1 keypts   88   86
+
+ LINE NUMBER  139 edge typ  1 keypts   87   81
+
+ LINE NUMBER  140 edge typ  1 keypts   84   88
+
+ AREA NUMBER   67 surf typ  1 num loops  1 max edge  4
+  Edges
+       129       130       131       132
+
+ AREA NUMBER   68 surf typ  1 num loops  1 max edge  4
+  Edges
+       133       134       135       130
+
+ AREA NUMBER   69 surf typ  1 num loops  1 max edge  4
+  Edges
+       136       137       138       134
+
+ AREA NUMBER   70 surf typ  1 num loops  1 max edge  4
+  Edges
+       139       132       140       137
+
+ AREA NUMBER   71 surf typ  1 num loops  1 max edge  4
+  Edges
+       129       139       136       133
+
+ AREA NUMBER   72 surf typ  1 num loops  1 max edge  4
+  Edges
+       140       131       135       138
+
+ VOLUME NUMBER    9 num shells  1 max area  6
+  Areas
+        69        70        72        68        71        67
+
+ KEYPOINT NUMBER =     89    0.136118      0.430000E-03 -0.191500    
+
+ KEYPOINT NUMBER =     90    0.136118      0.430000E-03 -0.195500    
+
+ LINE NUMBER  141 edge typ  1 keypts   89   90
+
+ KEYPOINT NUMBER =     91   -0.235420     -0.245700E-01 -0.150000E-02
+
+ KEYPOINT NUMBER =     92   -0.223260     -0.245700E-01 -0.150000E-02
+
+ LINE NUMBER  142 edge typ  1 keypts   91   92
+
+ *ENDIF
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                  5
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ALL ERRORS WRITTEN TO C:\Users\chandler\file.err                                                                                                                                                                                                                                          
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR
+
+ PROMPT TO INTERRUPT FILE BASED INPUTS (/INPUT AND MACROS) ON THE FIRST ERROR OR AFTER 5 WARNINGS

@@ -1,0 +1,475 @@
+FINISH
+/CLEAR, START
+
+/PREP7
+/UNITS,SI
+
+/RGB,INDEX,100,100,100, 0
+/RGB,INDEX, 80, 80, 80,13
+/RGB,INDEX, 60, 60, 60,14
+/RGB,INDEX, 0, 0, 0,15
+/REPLOT
+
+!*%%%%%%%%%%%%%%%%%%% Definindo parâmetros geométricos %%%%%%%%%%%%%%%%%%%%
+
+*SET,Lu,0.30     !* Comprimento Útil
+*SET,t,0.003     !* Espessura da viga
+*SET,Aba,0.012162 !* Comprimento Aba
+*SET,thick,0.05  !* Thickness
+
+*SET,s_up,0.004/2!* Metade do Comprimento do contato com o amplificador
+*SET,s_h,0.132   !* altura sonotrodo
+*SET,s_d,0.011   !* largura da base do sonotrodo=2*s_d+2*s_up
+
+*SET,sc_d,0.010  !* parafuso sem cabeça_diametro
+*SET,sc_h,0.045  !* parafuso sem cabeça_altura
+
+*SET,a_h1,0.0504 !* Amp_Altura1
+*SET,a_h2,0.003  !* Amp_Altura2
+*SET,a_h3,0.1004 !* Amp_Altura3
+*SET,a_dm,0.050  !* Amp_Maior diametro
+*SET,a_r1,0.005  !* Amp_raio do filete superior
+*SET,a_r2,0.002  !* Amp_raio do filete inferior
+*SET,a_ds,0.026  !* Amp_diametro superior
+*SET,a_di,0.040  !* Amp_diametro inferior
+
+*SET,p_d1,0.010  !* parafuso_diametro principal
+*SET,p_dc,0.01545!* parafuso_diametro cabeça
+*SET,p_h1,0.0375 !* parafuso_altura dentro do amp
+*SET,p_hc,0.010  !* parafuso_diametro principal
+
+*SET,c_de,0.0381 !* ceramica_diametro externo
+*SET,c_h,0.00635 !* ceramica_espessura
+*SET,c_di,0.0127 !* ceramica_diametro interno
+
+*SET,b_h,0.049   !* Bot_Altura
+*SET,b_hi,0.022  !* Bot_Altura interna
+*SET,b_ha,0.004  !* Bot_Altura anel
+*SET,b_de,0.040  !* Bot_diametro externo
+*SET,b_di,0.020  !* Bot_diametro interno
+
+
+
+!*========================================================================
+!*                                GEOMETRIA
+!*========================================================================
+
+!*%%%%%%%%%%%%%%%%%%%%%%%%%% Variáveis de localização %%%%%%%%%%%%%%%%%%%%%%
+
+L=Lu-2*s_up
+Laba=Aba-s_up
+d1=(a_dm-a_ds)/2-a_r1
+d2=-1*(a_dm-a_di)/2
+d3=(b_de-b_di)/2
+d4=(b_di-p_d1)/2
+d5=(p_dc-p_d1)/2
+A=-s_h
+B=A-a_h1-a_r1-a_h2-2*a_r2-a_h3
+C=B-2*c_h
+D=L+s_up
+Ltot=L+2*(Laba+2*s_up)
+
+!*################################# PONTOS #################################
+
+K,1,0,-s_h,0,
+
+K,2,0,0,0,
+
+K,3,s_up+s_d,-s_h,0,
+
+K,4,s_up,0,0,
+
+K,8,+0.5*sc_d,-0.5*sc_h-s_h,0,
+
+K,5,0,-0.5*sc_h-s_h,0,
+
+K,9,+0.5*sc_d,-s_h,0,
+
+K,10,+0.5*sc_d,0.5*sc_h-s_h,0,
+
+K,6,0,0.5*sc_h-s_h ,0,
+
+K,21,+p_d1/2,A-a_h1-a_r1-a_h2-2*a_r2-a_h3+p_h1,0,
+
+K,7,0,A-a_h1-a_r1-a_h2-2*a_r2-a_h3+p_h1,0,
+
+K,22,+a_ds/2,A,0,
+
+K,11,0,A,0,
+
+K,23,+a_ds/2,A-a_h1,0,
+
+K,12,0,A-a_h1,0,
+
+K,24,+a_ds/2+a_r1,A-a_h1-a_r1,0,
+
+K,13,0,A-a_h1-a_r1,0,
+
+K,25,+a_ds/2+a_r1+d1,A-a_h1-a_r1,0,
+
+K,26,+a_ds/2+a_r1+d1,A-a_h1-a_r1-a_h2,0,
+
+K,14,0,A-a_h1-a_r1-a_h2,0,
+
+K,27,+a_ds/2+a_r1+d1+d2,A-a_h1-a_r1-a_h2,0,
+
+K,28,+a_ds/2+a_r1+d1+d2,A-a_h1-a_r1-a_h2-2*a_r2,0,
+
+K,15,0,A-a_h1-a_r1-a_h2-2*a_r2,0,
+
+K,29,+a_ds/2+a_r1+d1+d2,A-a_h1-a_r1-a_h2-2*a_r2-a_h3,0,
+
+K,16,0,A-a_h1-a_r1-a_h2-2*a_r2-a_h3,0,
+
+K,30,+p_d1/2,A-a_h1-a_r1-a_h2-2*a_r2-a_h3,0,
+
+K,31,+a_ds/2,A-a_h1-a_r1,0,
+
+K,34,+a_ds/2+a_r1+d1+d2-a_r2,A-a_h1-a_r1-a_h2-a_r2,0,
+
+K,17,0,A-a_h1-a_r1-a_h2-a_r2,0,
+
+K,36,+a_ds/2+a_r1+d1+d2,A-a_h1-a_r1-a_h2-a_r2,0,
+
+K,54,p_d1/2,B,0,
+
+K,18,0,B,0,
+
+K,55,p_d1/2,B-2*c_h,0,
+
+K,19,0,B-2*c_h,0,
+
+K,56,c_di/2,B-2*c_h,0,
+
+K,57,c_di/2,B-1*c_h,0,
+
+K,20,0,B-1*c_h,0,
+
+K,58,c_di/2,B,0,
+
+K,59,c_de/2,B,0,
+
+K,60,c_de/2,B-1*c_h,0,
+
+K,61,c_de/2,B-2*c_h,0,
+
+K,62,b_de/2,C,0,
+
+K,32,0,C,0,
+
+K,63,b_de/2,C-b_h,0,
+
+K,33,0,C-b_h,0,
+
+K,64,b_de/2-d3,C-b_h,0,
+
+K,65,b_de/2-d3,C-b_h+b_hi,0,
+
+K,35,0,C-b_h+b_hi,0,
+
+K,66,b_de/2-d3,C-b_h+b_hi+b_ha,0,
+
+K,37,0,C-b_h+b_hi+b_ha,0,
+
+K,67,b_de/2-d3-d4,C-b_h+b_hi+b_ha,0,
+
+K,68,b_de/2-d3-d4,C-b_h+b_hi,0,
+
+K,69,b_de/2-d3-d4+d5,C-b_h+b_hi,0,
+
+K,70,b_de/2-d3-d4+d5,C-b_h+b_hi-p_hc,0,
+
+K,38,0,C-b_h+b_hi-p_hc,0,
+
+K,39,-s_up,0,0,
+
+K,40,-s_up-s_d,-s_h,0,
+
+
+!*################################ LINHAS ##################################
+
+LARC,23,24,31,-a_r1,
+LARC,27,34,36,+a_r2,
+LARC,34,28,36,+a_r2,
+
+
+!*################################ AREAS ##################################
+
+A,40,3,4,39
+A,1,9,8,5
+A,3,9,8,5,7,21,30,29,28,34,27,26,25,24,23
+A,7,21,68,69,70,38
+A,58,57,60,59
+A,57,60,61,56
+A,55,62,63 ,64,65,68
+
+AGLUE,ALL
+
+!*========================================================================
+!*                                  MALHA
+!*========================================================================
+
+!*########################### Material Properties #######################
+
+MPTEMP,,,,,,,,
+MPTEMP,1,0
+MPDATA,EX,3,,70000000000
+MPDATA,PRXY,3,,0.33
+MPDATA,DENS,3,,2700
+
+MPTEMP,,,,,,,,
+MPTEMP,1,0
+MPDATA,EX,2,,210000000000
+MPDATA,PRXY,2,,0.29
+MPDATA,DENS,2,,7846.3
+
+/COM,  MATERIAL PROPERTIES OF LEAD ZIRCONATE TITANATE (PZT-4A)
+/COM,
+/COM,  -- MATERIAL MATRICES (POLAR AXIS ALONG Y-AXIS): IEEE INPUT
+/COM,
+/COM,   [s11 s13 s12  0  0  0 ]        [ 0 d31  0 ]      [ep11  0    0  ]
+/COM,   [s13 s33 s13  0  0  0 ]        [ 0 d33  0 ]      [  0  ep33  0  ]
+/COM,   [s12 s13 s11  0  0  0 ]        [ 0 d31  0 ]      [  0   0   ep11]
+/COM,   [ 0   0   0  s44 0  0 ]        [ 0  0  d15]
+/COM,   [ 0   0   0   0 s66 0 ]        [ 0  0   0 ]
+/COM,   [ 0   0   0   0  0 s44]        [d15 0   0 ]
+/COM,
+/COM,   - COMPLIANCE COEFFICIENTS, M2/N
+S11=12.3E-12
+S12=-4.05E-12
+S13=-5.31E-12
+S33=15.5E-12
+S44=39.0E-12
+S66=32.7E-12
+/COM,  - PIEZOELECTRIC STRAIN COEFFICIENTS, C/N
+D15=4.96E-10
+D31=-1.23E-10
+D33=2.89E-10
+/COM,  - RELATIVE PERMITTIVITY AT CONSTANT STRESS
+EP11=1475
+EP33=1300
+/COM,  - DENSITY, KG/M3
+RHO=7500
+
+/NOPR
+/COM,
+/COM,  -- MATERIAL MATRICES (POLAR AXIS ALONG Y-AXIS): ANSYS INPUT
+/COM,
+/COM,   [s11 s13 s12  0  0  0 ]        [ 0 d31  0 ]      [ep11  0    0  ]
+/COM,   [s13 s33 s13  0  0  0 ]        [ 0 d33  0 ]      [  0  ep33  0  ]
+/COM,   [s12 s13 s11  0  0  0 ]        [ 0 d31  0 ]      [  0   0   ep11]
+/COM,   [ 0   0   0  s44 0  0 ]        [d15 0   0 ]
+/COM,   [ 0   0   0   0 s44 0 ]        [ 0  0  d15]
+/COM,   [ 0   0   0   0  0 s66]        [ 0  0   0 ]
+
+TB,ANEL,1,,,1                 ! ANISOTROPIC ELASTIC COMPLIANCE MATRIX
+TBDA,1,S11,S13,S12
+TBDA,7,S33,S13
+TBDA,12,S11
+TBDA,16,S44
+
+TB,PIEZ,1,,,1                 ! PIEZOELECTRIC STRAIN MATRIX
+TBDA,2,D31
+TBDA,5,D33
+TBDA,8,D31
+TBDA,10,D15
+
+TB,DPER,1,,,1                 ! DIELECTRIC PERMITTIVITY AT CONSTANT STRESS
+TBDA,1,EP11,EP33
+
+MP,DENS,1,RHO                 ! DENSITY
+
+!*########################### Defining elements###########################
+
+ET,1,PLANE223,1001,,1         ! PIEZOELECTRIC AXISYMMETRIC ELEMENT TYPE
+ET,2,PLANE183                 ! AXISYMMETRIC ELEMENT TYPE
+ET,3,PLANE183                 ! PLANE ELEMENT TYPE
+KEYOPT,2,1,0
+KEYOPT,2,3,1
+KEYOPT,2,6,0
+KEYOPT,3,1,0
+KEYOPT,3,3,3
+KEYOPT,3,6,0
+R,1,thick,
+
+!*################################# Meshing ###############################
+
+CM,_Y,AREA
+ASEL, , , ,       8
+CM,_Y1,AREA
+CMSEL,S,_Y
+!*
+CMSEL,S,_Y1
+AATT,       3,       1,   3,       0,
+CMSEL,S,_Y
+CMDELE,_Y
+CMDELE,_Y1
+!*
+FLST,5,2,5,ORDE,2
+FITEM,5,2
+FITEM,5,9
+CM,_Y,AREA
+ASEL, , , ,P51X
+CM,_Y1,AREA
+CMSEL,S,_Y
+!*
+CMSEL,S,_Y1
+AATT,       2,       1,   2,       0,
+CMSEL,S,_Y
+CMDELE,_Y
+CMDELE,_Y1
+!*
+FLST,5,2,5,ORDE,2
+FITEM,5,10
+FITEM,5,-11
+CM,_Y,AREA
+ASEL, , , ,P51X
+CM,_Y1,AREA
+CMSEL,S,_Y
+!*
+CMSEL,S,_Y1
+AATT,       3,       1,   2,       0,
+CMSEL,S,_Y
+CMDELE,_Y
+CMDELE,_Y1
+!*
+FLST,5,2,5,ORDE,2
+FITEM,5,5
+FITEM,5,-6
+CM,_Y,AREA
+ASEL, , , ,P51X
+CM,_Y1,AREA
+CMSEL,S,_Y
+!*
+CMSEL,S,_Y1
+AATT,       1,       1,   1,       0,
+CMSEL,S,_Y
+CMDELE,_Y
+CMDELE,_Y1
+!*
+
+!*
+FLST,2,1,5,ORDE,1
+FITEM,2,8
+AESIZE,P51X,0.005,
+MSHAPE,0,2D
+MSHKEY,0
+!*
+CM,_Y,AREA
+ASEL, , , ,       8
+CM,_Y1,AREA
+CHKMSH,'AREA'
+CMSEL,S,_Y
+!*
+AMESH,_Y1
+!*
+CMDELE,_Y
+CMDELE,_Y1
+CMDELE,_Y2
+!*
+SMRT,1
+FLST,5,6,5,ORDE,5
+FITEM,5,2
+FITEM,5,5
+FITEM,5,-6
+FITEM,5,9
+FITEM,5,-11
+CM,_Y,AREA
+ASEL, , , ,P51X
+CM,_Y1,AREA
+CHKMSH,'AREA'
+CMSEL,S,_Y
+!*
+AMESH,_Y1
+!*
+CMDELE,_Y
+CMDELE,_Y1
+CMDELE,_Y2
+!*
+!*################################ REFINAMENTO     ########################
+
+
+
+!*#################################  Acoplamento de nós ###############################
+
+nos=6
+/PREP7
+*dim,nleft,,nos
+nleft(1,1) = 2,7,6,5,4,3
+*dim,nright,,nos
+nright(1,1) = 10,11,12,13,8,9
+flag=1
+i=1
+j=1
+*DOWHILE,flag
+CP,j,UX,nleft(i,1),nright(i,1)
+CP,j+1,UY,nleft(i,1),nright(i,1)
+*IF,i,EQ,nos,EXIT
+i=i+1
+j=j+2
+*ENDDO
+
+!*################################# Análise ###############################
+
+/SOL
+
+
+!*========================================================================
+!*                             ANÁLISE MODAL
+!*========================================================================
+
+ANTYPE,2
+MODOPT,LANB,10
+EQSLV,SPAR
+MXPAND,10, , ,0
+LUMPM,0
+PSTRES,0
+MODOPT,LANB,10,0,200000, ,OFF
+
+
+!*######################### Condição de Contorno      ######################
+
+!* Eixos imóveis
+
+lin=3
+*dim,linhas,,lin
+linhas(1,1) = 11,13,26
+flag=1
+i=1
+
+*DOWHILE,flag
+DL,linhas(i,1), ,UX,0
+*IF,i,EQ,lin,EXIT
+i=i+1
+*ENDDO
+
+
+
+resson = 0 ! calcula as freqs. de ressonância (resson=1) e antirressonância (resson=0)
+*IF,resson,EQ,1,THEN
+
+! para CALCULAR as freqs. de RESSONANCIA (curto circuito nos eletrodos)
+DL,28, ,VOLT,0,0
+DL,30, ,VOLT,0,0
+DL,32, ,VOLT,0,0
+
+*ELSE
+
+! para CALCULAR as freqs. de ANTIRRESSONANCIA (circuito aberto)
+! Deve-se aterrar somente o eletrodo L28 e remover as tensões elétricas dos L30 e L32
+DL,28, ,VOLT,0,0
+
+*ENDIF
+
+
+
+SOLVE
+
+FINISH
+/POST1
+SET,FIRST
+!*
+/EFACET,1
+PLNSOL, U,Y, 0,1.0
+
+SET,LIST  ! lista as frequencias
