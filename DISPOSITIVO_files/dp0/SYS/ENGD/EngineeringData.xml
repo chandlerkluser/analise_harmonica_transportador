@@ -849,6 +849,28 @@
         <ParameterDetails id="pa0">
           <Name>Red</Name>
         </ParameterDetails>
+        <ParameterDetails id="pa7">
+          <Name>Density</Name>
+          <Units name="Density" />
+        </ParameterDetails>
+        <ParameterDetails id="pa27">
+          <Name>Young's Modulus</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa30">
+          <Name>Poisson's Ratio</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa32">
+          <Name>Bulk Modulus</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa34">
+          <Name>Shear Modulus</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa38">
+          <Name>Relative Permeability</Name>
+        </ParameterDetails>
         <ParameterDetails id="pa1">
           <Name>Green</Name>
         </ParameterDetails>
@@ -868,10 +890,6 @@
         </ParameterDetails>
         <ParameterDetails id="pa6">
           <Name>Options Variable</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa7">
-          <Name>Density</Name>
-          <Units name="Density" />
         </ParameterDetails>
         <ParameterDetails id="pa8">
           <Name>Temperature</Name>
@@ -935,24 +953,6 @@
         <ParameterDetails id="pa24">
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity" />
-        </ParameterDetails>
-        <ParameterDetails id="pa27">
-          <Name>Young's Modulus</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa30">
-          <Name>Poisson's Ratio</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa32">
-          <Name>Bulk Modulus</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa34">
-          <Name>Shear Modulus</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa38">
-          <Name>Relative Permeability</Name>
         </ParameterDetails>
         <ParameterDetails id="pa25">
           <Name>Young's Modulus X direction</Name>

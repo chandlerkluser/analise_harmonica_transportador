@@ -602,34 +602,19 @@
         </BulkDetails>
       </Material>
       <Metadata>
+        <ParameterDetails id="pa1">
+          <Name>Green</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa2">
+          <Name>Blue</Name>
+          <Unitless />
+        </ParameterDetails>
         <ParameterDetails id="pa5">
           <Name>Compressive Yield Strength</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa6">
-          <Name>Options Variable</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa7">
-          <Name>Density</Name>
-          <Units name="Density">
-            <Unit>
-              <Name>kg</Name>
-            </Unit>
-            <Unit power="-3">
-              <Name>m</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa8">
-          <Name>Temperature</Name>
-          <Units name="Temperature">
-            <Unit>
-              <Name>C</Name>
             </Unit>
           </Units>
         </ParameterDetails>
@@ -671,6 +656,18 @@
         </ParameterDetails>
         <ParameterDetails id="pa15">
           <Name>Alternating Stress</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa16">
+          <Name>Cycles</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa17">
+          <Name>Mean Stress</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -762,14 +759,6 @@
           <Name>Red</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa1">
-          <Name>Green</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa2">
-          <Name>Blue</Name>
-          <Unitless />
-        </ParameterDetails>
         <ParameterDetails id="pa3">
           <Name>Material Property</Name>
           <Unitless />
@@ -779,6 +768,29 @@
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa6">
+          <Name>Options Variable</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa7">
+          <Name>Density</Name>
+          <Units name="Density">
+            <Unit>
+              <Name>kg</Name>
+            </Unit>
+            <Unit power="-3">
+              <Name>m</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa8">
+          <Name>Temperature</Name>
+          <Units name="Temperature">
+            <Unit>
+              <Name>C</Name>
             </Unit>
           </Units>
         </ParameterDetails>
@@ -803,18 +815,6 @@
           <Units name="InvTemp1">
             <Unit power="-1">
               <Name>C</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa16">
-          <Name>Cycles</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa17">
-          <Name>Mean Stress</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
             </Unit>
           </Units>
         </ParameterDetails>
