@@ -1,0 +1,2 @@
+git add -A
+git commit --all -m "Agora a malhagem dos sólidos foi integrada, falta ligar as malhas"
