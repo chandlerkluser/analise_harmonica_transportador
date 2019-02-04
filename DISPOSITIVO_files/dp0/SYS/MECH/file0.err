@@ -1,15 +1,15 @@
-/COM,ANSYS RELEASE Release 19.2      BUILD 19.2      UP20180808       15:46:54
+/COM,ANSYS RELEASE Release 19.2      BUILD 19.2      UP20180808       03:15:43
 
- *** WARNING ***                         CP =       0.281   TIME= 15:46:55
+ *** WARNING ***                         CP =       0.250   TIME= 03:15:44
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** WARNING ***                         CP =       0.312   TIME= 15:46:55
- Contact element 1229 is missing DOF VOLT (and possibly others) of       
- underlying base element 268.  Similar mismatches may exist elsewhere,   
+ *** WARNING ***                         CP =       0.281   TIME= 03:15:44
+ Contact element 3795 is missing DOF VOLT (and possibly others) of       
+ underlying base element 84.  Similar mismatches may exist elsewhere,    
  but checking for this is discontinued.                                  
 
- *** WARNING ***                         CP =       0.437   TIME= 15:46:55
+ *** WARNING ***                         CP =       0.374   TIME= 03:15:44
  The modal analysis has non-zero displacements defined, which will cause 
  a load vector to be generated.  The load vector may be used by the      
  mode superposition analyses.  This feature is not documented.           
