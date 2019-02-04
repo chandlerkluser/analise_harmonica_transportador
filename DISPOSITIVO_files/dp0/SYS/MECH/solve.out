@@ -74,13 +74,13 @@
     TOTAL OF     2 CORES REQUESTED
   DESIGNXPLORER REQUESTED
   MPI OPTION                   = INTELMPI
-  INPUT FILE NAME              = C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\Scr25A4\dummy.dat
-  OUTPUT FILE NAME             = C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\Scr25A4\solve.out
+  INPUT FILE NAME              = C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\ScrA447\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\ScrA447\solve.out
   START-UP FILE MODE           = NOREAD
   STOP FILE MODE               = NOREAD
 
  RELEASE= Release 19.2         BUILD= 19.2      UP20180808   VERSION=WINDOWS x64 
- CURRENT JOBNAME=file0  04:22:24  FEB 04, 2019 CP=      0.109
+ CURRENT JOBNAME=file0  04:26:13  FEB 04, 2019 CP=      0.156
 
 
  PARAMETER _DS_PROGRESS =     999.0000000    
@@ -89,11 +89,11 @@
 
 
 
- *** NOTE ***                            CP =       0.203   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.234   TIME= 04:26:13
  The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
  solution.  Command is ignored.                                          
 
- *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  4.37333333    
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  4.43694444    
 
  TITLE= 
  DISPOSITIVO--Modal (A5)                                                       
@@ -102,7 +102,7 @@
  SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\Scr25A4\
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\ScrA447\
 
  SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
@@ -140,7 +140,7 @@
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
  DISTRIBUTED ANSYS Academic Teaching Introductory              
 
- 01055371  VERSION=WINDOWS x64   04:22:24  FEB 04, 2019 CP=      0.203
+ 01055371  VERSION=WINDOWS x64   04:26:13  FEB 04, 2019 CP=      0.234
 
  DISPOSITIVO--Modal (A5)                                                       
 
@@ -183,18 +183,18 @@
  *********** Fixed Supports ***********
 
 
- ***** ROUTINE COMPLETED *****  CP =         0.265
+ ***** ROUTINE COMPLETED *****  CP =         0.328
 
 
- --- Number of total nodes = 10351
- --- Number of contact elements = 386
+ --- Number of total nodes = 18619
+ --- Number of contact elements = 638
  --- Number of spring elements = 0
  --- Number of bearing elements = 0
- --- Number of solid elements = 5226
+ --- Number of solid elements = 9280
  --- Number of condensed parts = 0
- --- Number of total elements = 5612
+ --- Number of total elements = 9918
 
- *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  4.37333333    
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  4.43694444    
 
  *****  ANSYS SOLUTION ROUTINE  *****
 
@@ -240,21 +240,21 @@
 
  *ENDIF
 
- *** NOTE ***                            CP =       0.265   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.359   TIME= 04:26:13
  The automatic domain decomposition logic has selected the MESH domain   
  decomposition method with 2 processes per solution.                     
 
  *****  ANSYS SOLVE    COMMAND  *****
 
- *** WARNING ***                         CP =       0.265   TIME= 04:22:24
+ *** WARNING ***                         CP =       0.359   TIME= 04:26:13
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** NOTE ***                            CP =       0.296   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.390   TIME= 04:26:13
  The model data was checked and warning messages were found.             
   Please review output or errors file (                                  
  C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScr 
- ratch\Scr25A4\file0.err ) for these warning messages.                   
+ ratch\ScrA447\file0.err ) for these warning messages.                   
 
  *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
       --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
@@ -288,7 +288,7 @@
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
  DISTRIBUTED ANSYS Academic Teaching Introductory              
 
- 01055371  VERSION=WINDOWS x64   04:22:24  FEB 04, 2019 CP=      0.296
+ 01055371  VERSION=WINDOWS x64   04:26:13  FEB 04, 2019 CP=      0.390
 
  DISPOSITIVO--Modal (A5)                                                       
 
@@ -307,23 +307,23 @@
    NUMBER OF MODES TO EXPAND . . . . . . . . . . .ALL
    ELEMENT RESULTS CALCULATION . . . . . . . . . .OFF
 
- *** NOTE ***                            CP =       0.296   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.390   TIME= 04:26:13
  Poisson's ratio PR input has been converted to NU input.                
 
- *** NOTE ***                            CP =       0.296   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.390   TIME= 04:26:13
  The structural-electrostatic analysis with KEYOPT(1) = 1001 of element  
  SOLID226 will be piezoelectric.                                         
 
- *** NOTE ***                            CP =       0.296   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.390   TIME= 04:26:13
  The conditions for direct assembly have been met.  No .emat or .erot    
  files will be produced.                                                 
 
- *** WARNING ***                         CP =       0.328   TIME= 04:22:24
- Contact element 5241 is missing DOF VOLT (and possibly others) of       
+ *** WARNING ***                         CP =       0.452   TIME= 04:26:13
+ Contact element 9295 is missing DOF VOLT (and possibly others) of       
  underlying base element 138.  Similar mismatches may exist elsewhere,   
  but checking for this is discontinued.                                  
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 10 and contact element type 10 has been set up.  The       
  companion pair has real constant set ID 11.  Both pairs should have     
@@ -348,13 +348,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5234 and target element 5250.                                   
+ element 9288 and target element 9304.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 11 and contact element type 10 has been set up.  The       
  companion pair has real constant set ID 10.  Both pairs should have     
@@ -379,13 +379,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5241 and target element 5228.                                   
+ element 9295 and target element 9282.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 12 and contact element type 12 has been set up.  The       
  companion pair has real constant set ID 13.  Both pairs should have     
@@ -396,27 +396,27 @@
  Contact algorithm: Augmented Lagrange method
  Contact detection at: Gauss integration point
  Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.81839E+16
+ The resulting initial contact stiffness      0.13008E+17
  Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.48876E-03
+ The resulting penetration tolerance          0.30750E-03
  Default opening contact stiffness OPSF will be used.
  Default tangent stiffness factor FKT          1.0000    
  Use constant contact stiffness
  Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length               0.59897E-02
- Average contact pair depth                   0.48876E-02
+ Average contact surface length               0.37891E-02
+ Average contact pair depth                   0.30750E-02
  Default pinball region factor PINB           0.25000    
- The resulting pinball region                 0.12219E-02
+ The resulting pinball region                 0.76875E-03
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
- Max.  Initial penetration 2.168404345E-19 was detected between contact  
- element 5272 and target element 5370.                                   
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 9349 and target element 9541.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 13 and contact element type 12 has been set up.  The       
  companion pair has real constant set ID 12.  Both pairs should have     
@@ -427,27 +427,27 @@
  Contact algorithm: Augmented Lagrange method
  Contact detection at: Gauss integration point
  Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.81839E+16
+ The resulting initial contact stiffness      0.13008E+17
  Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.31338E-03
+ The resulting penetration tolerance          0.28723E-03
  Default opening contact stiffness OPSF will be used.
  Default tangent stiffness factor FKT          1.0000    
  Use constant contact stiffness
  Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length               0.82700E-02
- Average contact pair depth                   0.31338E-02
+ Average contact surface length               0.44216E-02
+ Average contact pair depth                   0.28723E-02
  Default pinball region factor PINB           0.25000    
- The resulting pinball region                 0.78345E-03
+ The resulting pinball region                 0.71807E-03
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
- Max.  Initial penetration 2.168404345E-19 was detected between contact  
- element 5294 and target element 5268.                                   
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
+ Max.  Initial penetration 6.505213035E-19 was detected between contact  
+ element 9460 and target element 9322.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 14 and contact element type 14 has been set up.  The       
  companion pair has real constant set ID 15.  Both pairs should have     
@@ -472,13 +472,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5376 and target element 5386.                                   
+ element 9566 and target element 9576.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 15 and contact element type 14 has been set up.  The       
  companion pair has real constant set ID 14.  Both pairs should have     
@@ -503,13 +503,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5383 and target element 5373.                                   
+ element 9573 and target element 9563.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 16 and contact element type 16 has been set up.  The       
  companion pair has real constant set ID 17.  Both pairs should have     
@@ -534,13 +534,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
- Max.  Initial penetration 0 was detected between contact element 5396   
- and target element 5411.                                                
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
+ Max.  Initial penetration 0 was detected between contact element 9586   
+ and target element 9601.                                                
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 17 and contact element type 16 has been set up.  The       
  companion pair has real constant set ID 16.  Both pairs should have     
@@ -565,13 +565,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5403 and target element 5395.                                   
+ element 9593 and target element 9585.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 18 and contact element type 18 has been set up.  The       
  companion pair has real constant set ID 19.  Both pairs should have     
@@ -596,13 +596,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5420 and target element 5436.                                   
+ element 9610 and target element 9626.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 19 and contact element type 18 has been set up.  The       
  companion pair has real constant set ID 18.  Both pairs should have     
@@ -627,13 +627,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5427 and target element 5414.                                   
+ element 9617 and target element 9604.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 20 and contact element type 20 has been set up.  The       
  companion pair has real constant set ID 21.  Both pairs should have     
@@ -644,27 +644,27 @@
  Contact algorithm: Augmented Lagrange method
  Contact detection at: Gauss integration point
  Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.74682E+16
+ The resulting initial contact stiffness      0.13289E+17
  Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.53560E-03
+ The resulting penetration tolerance          0.30101E-03
  Default opening contact stiffness OPSF will be used.
  Default tangent stiffness factor FKT          1.0000    
  Use constant contact stiffness
  Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length               0.61436E-02
- Average contact pair depth                   0.53560E-02
+ Average contact surface length               0.41020E-02
+ Average contact pair depth                   0.30101E-02
  Default pinball region factor PINB           0.25000    
- The resulting pinball region                 0.13390E-02
+ The resulting pinball region                 0.75252E-03
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 2.168404345E-19 was detected between contact  
- element 5458 and target element 5569.                                   
+ element 9663 and target element 9874.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 21 and contact element type 20 has been set up.  The       
  companion pair has real constant set ID 20.  Both pairs should have     
@@ -675,27 +675,27 @@
  Contact algorithm: Augmented Lagrange method
  Contact detection at: Gauss integration point
  Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.74682E+16
+ The resulting initial contact stiffness      0.13289E+17
  Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.29823E-03
+ The resulting penetration tolerance          0.28523E-03
  Default opening contact stiffness OPSF will be used.
  Default tangent stiffness factor FKT          1.0000    
  Use constant contact stiffness
  Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length               0.71414E-02
- Average contact pair depth                   0.29823E-02
+ Average contact surface length               0.42631E-02
+ Average contact pair depth                   0.28523E-02
  Default pinball region factor PINB           0.25000    
- The resulting pinball region                 0.74557E-03
+ The resulting pinball region                 0.71307E-03
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
- Max.  Initial penetration 4.33680869E-19 was detected between contact   
- element 5480 and target element 5441.                                   
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
+ Max.  Initial penetration 6.505213035E-19 was detected between contact  
+ element 9753 and target element 9656.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 22 and contact element type 22 has been set up.  The       
  companion pair has real constant set ID 23.  Both pairs should have     
@@ -720,13 +720,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5577 and target element 5587.                                   
+ element 9883 and target element 9893.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 23 and contact element type 22 has been set up.  The       
  companion pair has real constant set ID 22.  Both pairs should have     
@@ -751,13 +751,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5583 and target element 5573.                                   
+ element 9889 and target element 9879.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 24 and contact element type 24 has been set up.  The       
  companion pair has real constant set ID 25.  Both pairs should have     
@@ -782,13 +782,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 1.110223025E-16 was detected between contact  
- element 5597 and target element 5608.                                   
+ element 9903 and target element 9914.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 25 and contact element type 24 has been set up.  The       
  companion pair has real constant set ID 24.  Both pairs should have     
@@ -813,11 +813,15 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.328   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.452   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5601 and target element 5593.                                   
+ element 9907 and target element 9899.                                   
  ****************************************
   
+
+ *** WARNING ***                         CP =       0.452   TIME= 04:26:13
+ Maximum contact stiffness 1.328867165E+16 is too big which can cause an 
+ accuracy problem, you may scale the force units in the model.           
   
   
 
@@ -825,10 +829,10 @@
   
      D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
   
-  ...Number of elements: 5612
-  ...Number of nodes:    10351
+  ...Number of elements: 9918
+  ...Number of nodes:    18619
   ...Decompose to 2 CPU domains
-  ...Element load balance ratio =     1.002
+  ...Element load balance ratio =     1.001
 
 
                       L O A D   S T E P   O P T I O N S
@@ -842,69 +846,7 @@
       NSOL        ALL               
 
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
- Symmetric Deformable- deformable contact pair identified by real        
- constant set 12 and contact element type 12 has been set up.  The       
- companion pair has real constant set ID 13.  Both pairs should have     
- the same behavior.                                                      
- ANSYS will keep the current pair and deactivate its companion pair,     
- resulting in asymmetric contact.                                        
- Linear contact is defined
- Contact algorithm: Augmented Lagrange method
- Contact detection at: Gauss integration point
- Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.81839E+16
- Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.48876E-03
- Default opening contact stiffness OPSF will be used.
- Default tangent stiffness factor FKT          1.0000    
- Use constant contact stiffness
- Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length               0.59897E-02
- Average contact pair depth                   0.48876E-02
- Default pinball region factor PINB           0.25000    
- The resulting pinball region                 0.12219E-02
- Initial penetration/gap is excluded.
- Bonded contact (always) is defined.
-
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
- Max.  Initial penetration 2.168404345E-19 was detected between contact  
- element 5272 and target element 5370.                                   
- ****************************************
-  
-
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
- Symmetric Deformable- deformable contact pair identified by real        
- constant set 13 and contact element type 12 has been set up.  The       
- companion pair has real constant set ID 12.  Both pairs should have     
- the same behavior.                                                      
- ANSYS will deactivate the current pair and keep its companion pair,     
- resulting in asymmetric contact.                                        
- Linear contact is defined
- Contact algorithm: Augmented Lagrange method
- Contact detection at: Gauss integration point
- Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.81839E+16
- Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.31338E-03
- Default opening contact stiffness OPSF will be used.
- Default tangent stiffness factor FKT          1.0000    
- Use constant contact stiffness
- Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length               0.82700E-02
- Average contact pair depth                   0.31338E-02
- Default pinball region factor PINB           0.25000    
- The resulting pinball region                 0.78345E-03
- Initial penetration/gap is excluded.
- Bonded contact (always) is defined.
-
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
- Max.  Initial penetration 2.168404345E-19 was detected between contact  
- element 5294 and target element 5268.                                   
- ****************************************
-  
-
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 18 and contact element type 18 has been set up.  The       
  companion pair has real constant set ID 19.  Both pairs should have     
@@ -929,13 +871,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5420 and target element 5436.                                   
+ element 9610 and target element 9626.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 19 and contact element type 18 has been set up.  The       
  companion pair has real constant set ID 18.  Both pairs should have     
@@ -960,13 +902,75 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5427 and target element 5414.                                   
+ element 9617 and target element 9604.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 20 and contact element type 20 has been set up.  The       
+ companion pair has real constant set ID 21.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.13289E+17
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.30101E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.41020E-02
+ Average contact pair depth                   0.30101E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.75252E-03
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
+ Max.  Initial penetration 2.168404345E-19 was detected between contact  
+ element 9663 and target element 9874.                                   
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 21 and contact element type 20 has been set up.  The       
+ companion pair has real constant set ID 20.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.13289E+17
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.28523E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.42631E-02
+ Average contact pair depth                   0.28523E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.71307E-03
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
+ Max.  Initial penetration 6.505213035E-19 was detected between contact  
+ element 9753 and target element 9656.                                   
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 22 and contact element type 22 has been set up.  The       
  companion pair has real constant set ID 23.  Both pairs should have     
@@ -991,13 +995,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5577 and target element 5587.                                   
+ element 9883 and target element 9893.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 23 and contact element type 22 has been set up.  The       
  companion pair has real constant set ID 22.  Both pairs should have     
@@ -1022,13 +1026,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5583 and target element 5573.                                   
+ element 9889 and target element 9879.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 24 and contact element type 24 has been set up.  The       
  companion pair has real constant set ID 25.  Both pairs should have     
@@ -1053,13 +1057,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Max.  Initial penetration 1.110223025E-16 was detected between contact  
- element 5597 and target element 5608.                                   
+ element 9903 and target element 9914.                                   
  ****************************************
   
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 25 and contact element type 24 has been set up.  The       
  companion pair has real constant set ID 24.  Both pairs should have     
@@ -1084,13 +1088,13 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       0.452   TIME= 04:22:24
+ *** NOTE ***                            CP =       0.608   TIME= 04:26:13
  Max.  Initial penetration 5.551115123E-17 was detected between contact  
- element 5601 and target element 5593.                                   
+ element 9907 and target element 9899.                                   
  ****************************************
   
 
- *** WARNING ***                         CP =       0.452   TIME= 04:22:24
+ *** WARNING ***                         CP =       0.640   TIME= 04:26:13
  The modal analysis has non-zero displacements defined, which will cause 
  a load vector to be generated.  The load vector may be used by the      
  mode superposition analyses.  This feature is not documented.           
@@ -1135,56 +1139,56 @@
      9  0.454162    
 
  Range of element maximum matrix coefficients in global coordinates
- Maximum = 8.750697397E+10 at element 5400.                              
- Minimum = 315045913 at element 188.                                     
+ Maximum = 8.750697397E+10 at element 9590.                              
+ Minimum = 252232502 at element 3867.                                    
 
    *** ELEMENT MATRIX FORMULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1      1839  SOLID187      0.125   0.000068
+        1      1902  SOLID187      0.094   0.000049
         2         5  SOLID226      0.000   0.000000
         3         5  SOLID186      0.000   0.000000
         4        63  SOLID187      0.000   0.000000
-        5      1857  SOLID187      0.109   0.000059
+        5      1918  SOLID187      0.109   0.000057
         6         5  SOLID186      0.000   0.000000
         7         5  SOLID186      0.000   0.000000
-        8        56  SOLID187      0.031   0.000557
-        9      1391  SOLID187      0.109   0.000079
+        8        56  SOLID187      0.000   0.000000
+        9      5321  SOLID187      0.250   0.000047
        10        12  CONTA174      0.000   0.000000
        11        12  TARGE170      0.000   0.000000
-       12        60  CONTA174      0.000   0.000000
-       13        60  TARGE170      0.000   0.000000
+       12       128  CONTA174      0.000   0.000000
+       13       128  TARGE170      0.016   0.000122
        14        10  CONTA174      0.000   0.000000
        15        10  TARGE170      0.000   0.000000
        16        11  CONTA174      0.000   0.000000
        17        11  TARGE170      0.000   0.000000
        18        12  CONTA174      0.000   0.000000
        19        12  TARGE170      0.000   0.000000
-       20        67  CONTA174      0.000   0.000000
-       21        67  TARGE170      0.000   0.000000
+       20       125  CONTA174      0.000   0.000000
+       21       125  TARGE170      0.000   0.000000
        22        10  CONTA174      0.000   0.000000
        23        10  TARGE170      0.000   0.000000
        24        11  CONTA174      0.000   0.000000
        25        11  TARGE170      0.000   0.000000
- Time at end of element matrix formulation CP = 0.717604578.             
+ Time at end of element matrix formulation CP = 0.93600601.              
 
   BLOCK LANCZOS CALCULATION OF UP TO   14 EIGENVECTORS.
-  NUMBER OF EQUATIONS              =        30936
-  MAXIMUM WAVEFRONT                =          328
+  NUMBER OF EQUATIONS              =        55740
+  MAXIMUM WAVEFRONT                =          348
   MAXIMUM MODES STORED             =           14
   MINIMUM EIGENVALUE               =  0.20000E+05
   MAXIMUM EIGENVALUE               =  0.22000E+05
 
 
-  Local memory allocated for solver              =     49.466 MB
-  Local memory required for in-core solution     =     47.169 MB
-  Local memory required for out-of-core solution =     19.432 MB
+  Local memory allocated for solver              =     85.063 MB
+  Local memory required for in-core solution     =     81.111 MB
+  Local memory required for out-of-core solution =     30.497 MB
 
-  Total memory allocated for solver              =     96.646 MB
-  Total memory required for in-core solution     =     92.159 MB
-  Total memory required for out-of-core solution =     37.861 MB
+  Total memory allocated for solver              =    179.748 MB
+  Total memory required for in-core solution     =    171.398 MB
+  Total memory required for out-of-core solution =     63.831 MB
 
- *** NOTE ***                            CP =       0.998   TIME= 04:22:24
+ *** NOTE ***                            CP =       1.420   TIME= 04:26:14
  The Distributed Sparse Matrix Solver used by the Block Lanczos          
  eigensolver is currently running in the in-core memory mode.  This      
  memory mode uses the most amount of memory in order to avoid using the  
@@ -1192,15 +1196,15 @@
  fastest solution time.  This mode is recommended if enough physical     
  memory is present to accommodate all of the solver data.                
 
- *** NOTE ***                            CP =       1.841   TIME= 04:22:25
+ *** NOTE ***                            CP =       2.995   TIME= 04:26:16
  Fewer modes than the requested number of modes ( 14 ) were computed.    
- The range specified (FREQB= 20000, FREQE= 22000) contains only 12       
+ The range specified (FREQB= 20000, FREQE= 22000) contains only 10       
  modes.                                                                  
 
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
  DISTRIBUTED ANSYS Academic Teaching Introductory              
 
- 01055371  VERSION=WINDOWS x64   04:22:25  FEB 04, 2019 CP=      1.841
+ 01055371  VERSION=WINDOWS x64   04:26:16  FEB 04, 2019 CP=      2.995
 
  DISPOSITIVO--Modal (A5)                                                       
 
@@ -1213,23 +1217,21 @@
 
 
    FREQUENCY RANGE REQUESTED=   20000.0       22000.0    
-    1     20100.32006082    
-    2     20327.94617953    
-    3     20346.67008554    
-    4     20455.33759374    
-    5     20479.40832379    
-    6     20525.18066867    
-    7     20714.55633742    
-    8     20884.99732482    
-    9     20976.56478689    
-   10     21256.54020977    
-   11     21623.93031444    
-   12     21898.82348246    
+    1     20215.61613653    
+    2     20250.89562813    
+    3     20271.84521231    
+    4     20325.13555532    
+    5     20470.02395897    
+    6     20737.54595001    
+    7     20756.08647393    
+    8     21147.97416272    
+    9     21705.56963829    
+   10     21791.19297342    
 
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
  DISTRIBUTED ANSYS Academic Teaching Introductory              
 
- 01055371  VERSION=WINDOWS x64   04:22:25  FEB 04, 2019 CP=      1.888
+ 01055371  VERSION=WINDOWS x64   04:26:16  FEB 04, 2019 CP=      3.042
 
  DISPOSITIVO--Modal (A5)                                                       
 
@@ -1240,20 +1242,18 @@
           ***** PARTICIPATION FACTOR CALCULATION *****  X  DIRECTION
                                                                                   CUMULATIVE     RATIO EFF.MASS
   MODE   FREQUENCY       PERIOD      PARTIC.FACTOR     RATIO    EFFECTIVE MASS   MASS FRACTION   TO TOTAL MASS
-     1     20100.3       0.49750E-04  -0.43464E-02    0.113432    0.188910E-04    0.997156E-02    0.566390E-05
-     2     20327.9       0.49193E-04  -0.63673E-02    0.166173    0.405422E-04    0.313716E-01    0.121554E-04
-     3     20346.7       0.49148E-04   0.69722E-03    0.018196    0.486117E-06    0.316282E-01    0.145748E-06
-     4     20455.3       0.48887E-04  -0.92498E-02    0.241403    0.855595E-04    0.767905E-01    0.256525E-04
-     5     20479.4       0.48830E-04  -0.15597E-01    0.407042    0.243256E-03    0.205192        0.729330E-04
-     6     20525.2       0.48721E-04  -0.38317E-01    1.000000    0.146820E-02    0.980175        0.440195E-03
-     7     20714.6       0.48275E-04   0.50359E-02    0.131428    0.253605E-04    0.993562        0.760359E-05
-     8     20885.0       0.47881E-04  -0.28403E-02    0.074127    0.806745E-05    0.997820        0.241878E-05
-     9     20976.6       0.47672E-04  -0.18983E-02    0.049543    0.360363E-05    0.999722        0.108044E-05
-    10     21256.5       0.47044E-04   0.18943E-03    0.004944    0.358832E-07    0.999741        0.107585E-07
-    11     21623.9       0.46245E-04  -0.50392E-03    0.013151    0.253935E-06    0.999875        0.761346E-07
-    12     21898.8       0.45665E-04  -0.48653E-03    0.012697    0.236707E-06     1.00000        0.709695E-07
+     1     20215.6       0.49467E-04   0.36602E-03    0.058840    0.133971E-06    0.311018E-02    0.401671E-07
+     2     20250.9       0.49381E-04  -0.62206E-02    1.000000    0.386962E-04    0.901454        0.116019E-04
+     3     20271.8       0.49330E-04   0.18138E-02    0.291584    0.328999E-05    0.977832        0.986405E-06
+     4     20325.1       0.49200E-04  -0.39701E-04    0.006382    0.157620E-08    0.977869        0.472577E-09
+     5     20470.0       0.48852E-04   0.28890E-03    0.046443    0.834648E-07    0.979806        0.250244E-07
+     6     20737.5       0.48222E-04   0.77564E-03    0.124688    0.601614E-06    0.993773        0.180376E-06
+     7     20756.1       0.48179E-04  -0.42001E-04    0.006752    0.176406E-08    0.993814        0.528901E-09
+     8     21148.0       0.47286E-04   0.14630E-05    0.000235    0.214041E-11    0.993814        0.641738E-12
+     9     21705.6       0.46071E-04   0.30145E-03    0.048460    0.908747E-07    0.995924        0.272460E-07
+    10     21791.2       0.45890E-04   0.41902E-03    0.067360    0.175581E-06     1.00000        0.526428E-07
  -----------------------------------------------------------------------------------------------------------------
-   sum                                                            0.189449E-02                    0.568006E-03
+   sum                                                            0.430750E-04                    0.129147E-04
  -----------------------------------------------------------------------------------------------------------------
 
 
@@ -1261,20 +1261,18 @@
           ***** PARTICIPATION FACTOR CALCULATION *****  Y  DIRECTION
                                                                                   CUMULATIVE     RATIO EFF.MASS
   MODE   FREQUENCY       PERIOD      PARTIC.FACTOR     RATIO    EFFECTIVE MASS   MASS FRACTION   TO TOTAL MASS
-     1     20100.3       0.49750E-04  -0.32012E-02    0.036923    0.102476E-04    0.703247E-03    0.307242E-05
-     2     20327.9       0.49193E-04  -0.62018E-01    0.715336    0.384625E-02    0.264656        0.115318E-02
-     3     20346.7       0.49148E-04  -0.86698E-01    1.000000    0.751654E-02    0.780485        0.225361E-02
-     4     20455.3       0.48887E-04   0.61291E-02    0.070695    0.375662E-04    0.783063        0.112631E-04
-     5     20479.4       0.48830E-04   0.91319E-02    0.105330    0.833922E-04    0.788786        0.250026E-04
-     6     20525.2       0.48721E-04   0.80280E-02    0.092597    0.644487E-04    0.793208        0.193230E-04
-     7     20714.6       0.48275E-04   0.97087E-03    0.011198    0.942590E-06    0.793273        0.282607E-06
-     8     20885.0       0.47881E-04  -0.50964E-01    0.587832    0.259732E-02    0.971516        0.778727E-03
-     9     20976.6       0.47672E-04  -0.19871E-02    0.022919    0.394841E-05    0.971787        0.118381E-05
-    10     21256.5       0.47044E-04  -0.13560E-02    0.015641    0.183885E-05    0.971913        0.551323E-06
-    11     21623.9       0.46245E-04   0.20051E-02    0.023127    0.402038E-05    0.972189        0.120539E-05
-    12     21898.8       0.45665E-04  -0.20131E-01    0.232195    0.405251E-03     1.00000        0.121502E-03
+     1     20215.6       0.49467E-04  -0.32033E-03    0.002744    0.102614E-06    0.742357E-05    0.307656E-07
+     2     20250.9       0.49381E-04   0.14778E-03    0.001266    0.218394E-07    0.900353E-05    0.654787E-08
+     3     20271.8       0.49330E-04  -0.50698E-03    0.004343    0.257024E-06    0.275979E-04    0.770609E-07
+     4     20325.1       0.49200E-04  -0.37986E-02    0.032538    0.144296E-04    0.107150E-02    0.432627E-05
+     5     20470.0       0.48852E-04  -0.11674        1.000000    0.136294E-01    0.987085        0.408635E-02
+     6     20737.5       0.48222E-04  -0.80372E-03    0.006884    0.645960E-06    0.987132        0.193672E-06
+     7     20756.1       0.48179E-04   0.11331E-02    0.009706    0.128389E-05    0.987225        0.384935E-06
+     8     21148.0       0.47286E-04  -0.31054E-02    0.026600    0.964348E-05    0.987922        0.289131E-05
+     9     21705.6       0.46071E-04  -0.51020E-04    0.000437    0.260308E-08    0.987923        0.780455E-09
+    10     21791.2       0.45890E-04  -0.12921E-01    0.110674    0.166941E-03     1.00000        0.500523E-04
  -----------------------------------------------------------------------------------------------------------------
-   sum                                                            0.145718E-01                    0.436890E-02
+   sum                                                            0.138227E-01                    0.414432E-02
  -----------------------------------------------------------------------------------------------------------------
 
 
@@ -1282,20 +1280,18 @@
           ***** PARTICIPATION FACTOR CALCULATION *****  Z  DIRECTION
                                                                                   CUMULATIVE     RATIO EFF.MASS
   MODE   FREQUENCY       PERIOD      PARTIC.FACTOR     RATIO    EFFECTIVE MASS   MASS FRACTION   TO TOTAL MASS
-     1     20100.3       0.49750E-04   0.36980E-03    0.020645    0.136755E-06    0.355175E-03    0.410017E-07
-     2     20327.9       0.49193E-04  -0.12787E-02    0.071383    0.163496E-05    0.460143E-02    0.490192E-06
-     3     20346.7       0.49148E-04  -0.23169E-02    0.129346    0.536822E-05    0.185436E-01    0.160950E-05
-     4     20455.3       0.48887E-04  -0.17913E-01    1.000000    0.320864E-03    0.851882        0.962015E-04
-     5     20479.4       0.48830E-04  -0.17305E-02    0.096608    0.299466E-05    0.859660        0.897857E-06
-     6     20525.2       0.48721E-04   0.50413E-02    0.281438    0.254147E-04    0.925666        0.761984E-05
-     7     20714.6       0.48275E-04  -0.18093E-02    0.101006    0.327352E-05    0.934168        0.981467E-06
-     8     20885.0       0.47881E-04   0.33656E-02    0.187889    0.113272E-04    0.963587        0.339611E-05
-     9     20976.6       0.47672E-04   0.36972E-03    0.020640    0.136692E-06    0.963942        0.409829E-07
-    10     21256.5       0.47044E-04  -0.21753E-02    0.121438    0.473186E-05    0.976231        0.141870E-05
-    11     21623.9       0.46245E-04   0.10176E-02    0.056809    0.103550E-05    0.978921        0.310463E-06
-    12     21898.8       0.45665E-04   0.28489E-02    0.159044    0.811621E-05     1.00000        0.243340E-05
+     1     20215.6       0.49467E-04   0.34587E-03    0.008181    0.119629E-06    0.332434E-04    0.358672E-07
+     2     20250.9       0.49381E-04   0.17822E-01    0.421577    0.317638E-03    0.883008E-01    0.952342E-04
+     3     20271.8       0.49330E-04   0.38197E-01    0.903535    0.145905E-02    0.493751        0.437451E-03
+     4     20325.1       0.49200E-04  -0.27281E-02    0.064531    0.744251E-05    0.495819        0.223141E-05
+     5     20470.0       0.48852E-04  -0.42399E-03    0.010029    0.179767E-06    0.495869        0.538978E-07
+     6     20737.5       0.48222E-04   0.42276E-01    1.000000    0.178722E-02    0.992515        0.535845E-03
+     7     20756.1       0.48179E-04  -0.31050E-02    0.073447    0.964120E-05    0.995194        0.289062E-05
+     8     21148.0       0.47286E-04   0.83936E-04    0.001985    0.704530E-08    0.995196        0.211232E-08
+     9     21705.6       0.46071E-04   0.41575E-02    0.098342    0.172845E-04    0.999999        0.518225E-05
+    10     21791.2       0.45890E-04   0.55318E-04    0.001309    0.306010E-08     1.00000        0.917479E-09
  -----------------------------------------------------------------------------------------------------------------
-   sum                                                            0.385035E-03                    0.115441E-03
+   sum                                                            0.359858E-02                    0.107893E-02
  -----------------------------------------------------------------------------------------------------------------
 
 
@@ -1303,20 +1299,18 @@
           ***** PARTICIPATION FACTOR CALCULATION *****ROTX DIRECTION
                                                                                   CUMULATIVE     RATIO EFF.MASS
   MODE   FREQUENCY       PERIOD      PARTIC.FACTOR     RATIO    EFFECTIVE MASS   MASS FRACTION   TO TOTAL MASS
-     1     20100.3       0.49750E-04  -0.11077E-02    0.036900    0.122695E-05    0.702118E-03    0.135323E-04
-     2     20327.9       0.49193E-04  -0.21472E-01    0.715305    0.461064E-03    0.264545        0.508517E-02
-     3     20346.7       0.49148E-04  -0.30019E-01    1.000000    0.901111E-03    0.780205        0.993855E-02
-     4     20455.3       0.48887E-04   0.21155E-02    0.070474    0.447545E-05    0.782766        0.493607E-04
-     5     20479.4       0.48830E-04   0.31595E-02    0.105251    0.998235E-05    0.788478        0.110098E-03
-     6     20525.2       0.48721E-04   0.27844E-02    0.092756    0.775295E-05    0.792915        0.855089E-04
-     7     20714.6       0.48275E-04   0.33545E-03    0.011175    0.112528E-06    0.792979        0.124110E-05
-     8     20885.0       0.47881E-04  -0.17658E-01    0.588234    0.311802E-03    0.971408        0.343894E-02
-     9     20976.6       0.47672E-04  -0.68833E-03    0.022930    0.473805E-06    0.971679        0.522570E-05
-    10     21256.5       0.47044E-04  -0.47108E-03    0.015693    0.221915E-06    0.971806        0.244755E-05
-    11     21623.9       0.46245E-04   0.69594E-03    0.023184    0.484335E-06    0.972083        0.534183E-05
-    12     21898.8       0.45665E-04  -0.69846E-02    0.232676    0.487844E-04     1.00000        0.538054E-03
+     1     20215.6       0.49467E-04  -0.11107E-03    0.002747    0.123370E-07    0.744224E-05    0.136067E-06
+     2     20250.9       0.49381E-04   0.58884E-04    0.001457    0.346730E-08    0.953387E-05    0.382416E-07
+     3     20271.8       0.49330E-04  -0.15944E-03    0.003944    0.254226E-07    0.248699E-04    0.280392E-06
+     4     20325.1       0.49200E-04  -0.13186E-02    0.032615    0.173858E-05    0.107366E-02    0.191752E-04
+     5     20470.0       0.48852E-04  -0.40428E-01    1.000000    0.163444E-02    0.987044        0.180266E-01
+     6     20737.5       0.48222E-04  -0.26058E-03    0.006446    0.679031E-07    0.987085        0.748918E-06
+     7     20756.1       0.48179E-04   0.38951E-03    0.009635    0.151720E-06    0.987177        0.167335E-05
+     8     21148.0       0.47286E-04  -0.10764E-02    0.026626    0.115872E-05    0.987876        0.127798E-04
+     9     21705.6       0.46071E-04  -0.15940E-04    0.000394    0.254077E-09    0.987876        0.280227E-08
+    10     21791.2       0.45890E-04  -0.44831E-02    0.110890    0.200980E-04     1.00000        0.221665E-03
  -----------------------------------------------------------------------------------------------------------------
-   sum                                                            0.174749E-02                    0.192735E-01
+   sum                                                            0.165770E-02                    0.182831E-01
  -----------------------------------------------------------------------------------------------------------------
 
 
@@ -1324,20 +1318,18 @@
           ***** PARTICIPATION FACTOR CALCULATION *****ROTY DIRECTION
                                                                                   CUMULATIVE     RATIO EFF.MASS
   MODE   FREQUENCY       PERIOD      PARTIC.FACTOR     RATIO    EFFECTIVE MASS   MASS FRACTION   TO TOTAL MASS
-     1     20100.3       0.49750E-04   0.19763E-02    0.416378    0.390588E-05    0.910932E-01    0.201463E-04
-     2     20327.9       0.49193E-04   0.85964E-03    0.181111    0.738978E-06    0.108328        0.381160E-05
-     3     20346.7       0.49148E-04  -0.15198E-03    0.032019    0.230977E-07    0.108866        0.119136E-06
-     4     20455.3       0.48887E-04   0.13661E-02    0.287815    0.186625E-05    0.152391        0.962599E-05
-     5     20479.4       0.48830E-04   0.19977E-02    0.420888    0.399094E-05    0.245468        0.205850E-04
-     6     20525.2       0.48721E-04   0.47465E-02    1.000000    0.225290E-04    0.770892        0.116203E-03
-     7     20714.6       0.48275E-04  -0.30792E-02    0.648727    0.948126E-05    0.992015        0.489037E-04
-     8     20885.0       0.47881E-04   0.45575E-03    0.096020    0.207712E-06    0.996859        0.107137E-05
-     9     20976.6       0.47672E-04   0.23723E-03    0.049980    0.562774E-07    0.998171        0.290275E-06
-    10     21256.5       0.47044E-04   0.18588E-03    0.039161    0.345499E-07    0.998977        0.178206E-06
-    11     21623.9       0.46245E-04  -0.28547E-04    0.006014    0.814933E-09    0.998996        0.420337E-08
-    12     21898.8       0.45665E-04   0.20746E-03    0.043708    0.430400E-07     1.00000        0.221997E-06
+     1     20215.6       0.49467E-04  -0.11176E-03    0.043900    0.124905E-07    0.126499E-02    0.644254E-07
+     2     20250.9       0.49381E-04   0.25458E-02    1.000000    0.648104E-05    0.657636        0.334288E-04
+     3     20271.8       0.49330E-04   0.10593E-02    0.416105    0.112215E-05    0.771283        0.578799E-05
+     4     20325.1       0.49200E-04  -0.12190E-03    0.047884    0.148603E-07    0.772788        0.766484E-07
+     5     20470.0       0.48852E-04  -0.75861E-04    0.029799    0.575488E-08    0.773371        0.296833E-07
+     6     20737.5       0.48222E-04   0.14900E-02    0.585287    0.222015E-05    0.998217        0.114514E-04
+     7     20756.1       0.48179E-04  -0.65406E-04    0.025692    0.427788E-08    0.998651        0.220651E-07
+     8     21148.0       0.47286E-04  -0.91513E-06    0.000359    0.837465E-12    0.998651        0.431959E-11
+     9     21705.6       0.46071E-04  -0.90360E-05    0.003549    0.816501E-10    0.998659        0.421146E-09
+    10     21791.2       0.45890E-04  -0.11507E-03    0.045200    0.132409E-07     1.00000        0.682960E-07
  -----------------------------------------------------------------------------------------------------------------
-   sum                                                            0.428778E-04                    0.221161E-03
+   sum                                                            0.987405E-05                    0.509297E-04
  -----------------------------------------------------------------------------------------------------------------
 
 
@@ -1345,27 +1337,25 @@
           ***** PARTICIPATION FACTOR CALCULATION *****ROTZ DIRECTION
                                                                                   CUMULATIVE     RATIO EFF.MASS
   MODE   FREQUENCY       PERIOD      PARTIC.FACTOR     RATIO    EFFECTIVE MASS   MASS FRACTION   TO TOTAL MASS
-     1     20100.3       0.49750E-04  -0.27659E-03    0.014098    0.765021E-07    0.168087E-03    0.734650E-06
-     2     20327.9       0.49193E-04   0.19346E-02    0.098607    0.374268E-05    0.839134E-02    0.359410E-04
-     3     20346.7       0.49148E-04   0.30475E-02    0.155332    0.928728E-05    0.287969E-01    0.891857E-04
-     4     20455.3       0.48887E-04   0.28606E-02    0.145803    0.818275E-05    0.467757E-01    0.785790E-04
-     5     20479.4       0.48830E-04  -0.19619E-01    1.000000    0.384919E-03    0.892502        0.369637E-02
-     6     20525.2       0.48721E-04   0.65617E-02    0.334453    0.430566E-04    0.987104        0.413472E-03
-     7     20714.6       0.48275E-04   0.69120E-04    0.003523    0.477762E-08    0.987114        0.458794E-07
-     8     20885.0       0.47881E-04   0.20994E-02    0.107006    0.440747E-05    0.996798        0.423249E-04
-     9     20976.6       0.47672E-04   0.67536E-03    0.034423    0.456108E-06    0.997800        0.438000E-05
-    10     21256.5       0.47044E-04  -0.12687E-03    0.006466    0.160955E-07    0.997836        0.154565E-06
-    11     21623.9       0.46245E-04  -0.22224E-03    0.011327    0.493891E-07    0.997944        0.474283E-06
-    12     21898.8       0.45665E-04   0.96729E-03    0.049303    0.935646E-06     1.00000        0.898501E-05
+     1     20215.6       0.49467E-04  -0.24855E-02    0.141642    0.617787E-05    0.130726E-01    0.593261E-04
+     2     20250.9       0.49381E-04  -0.20170E-03    0.011494    0.406839E-07    0.131587E-01    0.390687E-06
+     3     20271.8       0.49330E-04  -0.86489E-03    0.049287    0.748040E-06    0.147416E-01    0.718342E-05
+     4     20325.1       0.49200E-04  -0.17548E-01    1.000000    0.307932E-03    0.666339        0.295707E-02
+     5     20470.0       0.48852E-04   0.54397E-02    0.309990    0.295904E-04    0.728954        0.284157E-03
+     6     20737.5       0.48222E-04  -0.96182E-03    0.054811    0.925106E-06    0.730911        0.888379E-05
+     7     20756.1       0.48179E-04  -0.11259E-01    0.641616    0.126767E-03    0.999155        0.121734E-02
+     8     21148.0       0.47286E-04   0.11748E-03    0.006695    0.138021E-07    0.999184        0.132542E-06
+     9     21705.6       0.46071E-04   0.11028E-05    0.000063    0.121609E-11    0.999184        0.116781E-10
+    10     21791.2       0.45890E-04   0.62087E-03    0.035381    0.385473E-06     1.00000        0.370170E-05
  -----------------------------------------------------------------------------------------------------------------
-   sum                                                            0.455134E-03                    0.437065E-02
+   sum                                                            0.472581E-03                    0.453819E-02
  -----------------------------------------------------------------------------------------------------------------
 
 
 
 
 
- *** NOTE ***                            CP =       1.888   TIME= 04:22:25
+ *** NOTE ***                            CP =       3.042   TIME= 04:26:16
  The modes requested are mass normalized (Nrmkey on MODOPT).  However,   
  the modal masses and kinetic energies below are calculated with unit    
  normalized modes.                                                       
@@ -1374,29 +1364,27 @@
 
                                                                          EFFECTIVE MASS
   MODE  FREQUENCY   MODAL MASS     KENE      |      X-DIR      RATIO%   Y-DIR      RATIO%   Z-DIR      RATIO% 
-     1  0.2010E+05  0.3256E-14  0.2597E-04   |    0.1889E-04    0.00  0.1025E-04    0.00  0.1368E-06    0.00
-     2  0.2033E+05  0.7765E-15  0.6333E-05   |    0.4054E-04    0.00  0.3846E-02    0.12  0.1635E-05    0.00
-     3  0.2035E+05  0.4372E-15  0.3573E-05   |    0.4861E-06    0.00  0.7517E-02    0.23  0.5368E-05    0.00
-     4  0.2046E+05  0.3235E-15  0.2672E-05   |    0.8556E-04    0.00  0.3757E-04    0.00  0.3209E-03    0.01
-     5  0.2048E+05  0.3436E-15  0.2844E-05   |    0.2433E-03    0.01  0.8339E-04    0.00  0.2995E-05    0.00
-     6  0.2053E+05  0.1072E-14  0.8912E-05   |    0.1468E-02    0.04  0.6445E-04    0.00  0.2541E-04    0.00
-     7  0.2071E+05  0.1816E-13  0.1538E-03   |    0.2536E-04    0.00  0.9426E-06    0.00  0.3274E-05    0.00
-     8  0.2088E+05  0.1328E-14  0.1143E-04   |    0.8067E-05    0.00  0.2597E-02    0.08  0.1133E-04    0.00
-     9  0.2098E+05  0.1618E-12  0.1405E-02   |    0.3604E-05    0.00  0.3948E-05    0.00  0.1367E-06    0.00
-    10  0.2126E+05  0.1860E-13  0.1659E-03   |    0.3588E-07    0.00  0.1839E-05    0.00  0.4732E-05    0.00
-    11  0.2162E+05  0.7366E-12  0.6799E-02   |    0.2539E-06    0.00  0.4020E-05    0.00  0.1035E-05    0.00
-    12  0.2190E+05  0.9030E-14  0.8548E-04   |    0.2367E-06    0.00  0.4053E-03    0.01  0.8116E-05    0.00
+     1  0.2022E+05  0.1688E-13  0.1362E-03   |    0.1340E-06    0.00  0.1026E-06    0.00  0.1196E-06    0.00
+     2  0.2025E+05  0.5213E-14  0.4220E-04   |    0.3870E-04    0.00  0.2184E-07    0.00  0.3176E-03    0.01
+     3  0.2027E+05  0.6804E-15  0.5519E-05   |    0.3290E-05    0.00  0.2570E-06    0.00  0.1459E-02    0.04
+     4  0.2033E+05  0.3349E-15  0.2731E-05   |    0.1576E-08    0.00  0.1443E-04    0.00  0.7443E-05    0.00
+     5  0.2047E+05  0.2728E-15  0.2256E-05   |    0.8346E-07    0.00  0.1363E-01    0.41  0.1798E-06    0.00
+     6  0.2074E+05  0.6408E-15  0.5439E-05   |    0.6016E-06    0.00  0.6460E-06    0.00  0.1787E-02    0.05
+     7  0.2076E+05  0.1003E-14  0.8533E-05   |    0.1764E-08    0.00  0.1284E-05    0.00  0.9641E-05    0.00
+     8  0.2115E+05  0.3637E-12  0.3211E-02   |    0.2140E-11    0.00  0.9643E-05    0.00  0.7045E-08    0.00
+     9  0.2171E+05  0.4034E-12  0.3751E-02   |    0.9087E-07    0.00  0.2603E-08    0.00  0.1728E-04    0.00
+    10  0.2179E+05  0.2111E-13  0.1978E-03   |    0.1756E-06    0.00  0.1669E-03    0.01  0.3060E-08    0.00
  --------------------------------------------------------------------------------------------------------------
-   sum                                       |    0.1894E-02    0.06  0.1457E-01    0.44  0.3850E-03    0.01
+   sum                                       |    0.4308E-04    0.00  0.1382E-01    0.41  0.3599E-02    0.11
  --------------------------------------------------------------------------------------------------------------
 
 
  *** ANSYS BINARY FILE STATISTICS
   BUFFER SIZE USED= 16384
-        1.688 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
-       10.375 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
-        2.375 MB WRITTEN ON MODAL MATRIX FILE: file0.mode
-        3.500 MB WRITTEN ON RESULTS FILE: file0.rst
+        2.812 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+       17.938 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        3.438 MB WRITTEN ON MODAL MATRIX FILE: file0.mode
+        5.062 MB WRITTEN ON RESULTS FILE: file0.rst
  *************** Write FE CONNECTORS *********
 
  WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
@@ -1406,18 +1394,18 @@
  FINISH SOLUTION PROCESSING
 
 
- ***** ROUTINE COMPLETED *****  CP =         1.950
+ ***** ROUTINE COMPLETED *****  CP =         3.120
 
 
 
  PRINTOUT RESUMED BY /GOP
 
- *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  4.37361111    
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  4.43777778    
 
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
  DISTRIBUTED ANSYS Academic Teaching Introductory              
 
- 01055371  VERSION=WINDOWS x64   04:22:25  FEB 04, 2019 CP=      1.950
+ 01055371  VERSION=WINDOWS x64   04:26:16  FEB 04, 2019 CP=      3.120
 
  DISPOSITIVO--Modal (A5)                                                       
 
@@ -1425,7 +1413,7 @@
 
           ***** ANSYS RESULTS INTERPRETATION (POST1) *****
 
- *** NOTE ***                            CP =       1.950   TIME= 04:22:25
+ *** NOTE ***                            CP =       3.120   TIME= 04:26:16
  Reading results into the database (SET command) will update the current 
  displacement and force boundary conditions in the database with the     
  values from the results file for that load set.  Note that any          
@@ -1445,32 +1433,32 @@
  EXIT THE ANSYS POST1 DATABASE PROCESSOR
 
 
- ***** ROUTINE COMPLETED *****  CP =         1.950
+ ***** ROUTINE COMPLETED *****  CP =         3.120
 
 
 
  PRINTOUT RESUMED BY /GOP
 
- *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  4.37361111    
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  4.43777778    
 
  PARAMETER _PREPTIME =     0.000000000    
 
- PARAMETER _SOLVTIME =     1.000000000    
+ PARAMETER _SOLVTIME =     3.000000000    
 
  PARAMETER _POSTTIME =     0.000000000    
 
- PARAMETER _TOTALTIM =     1.000000000    
+ PARAMETER _TOTALTIM =     3.000000000    
 
  EXIT ANSYS WITHOUT SAVING DATABASE
 
 
- NUMBER OF WARNING MESSAGES ENCOUNTERED=          3
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          4
  NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
 
 +--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
 
 Release: Release 19.2       Build: 19.2       Update: UP20180808   Platform: WINDOWS x64 
-Date Run: 02/04/2019   Time: 04:22     Process ID: 6996
+Date Run: 02/04/2019   Time: 04:26     Process ID: 6192
 Operating System: Windows 7 Service Pack 1 (Build: 7601)
 
 Processor Model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
@@ -1496,32 +1484,32 @@ Input File: dummy.dat
 
   Core                Machine Name   Working Directory
  -----------------------------------------------------
-     0                 chandler-PC   C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\Scr25A4
-     1                 chandler-PC   C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\Scr25A4
+     0                 chandler-PC   C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\ScrA447
+     1                 chandler-PC   C:\Users\chandler\Documents\analise_harmonica_transportador\_ProjectScratch\ScrA447
  
-Latency time from master to core     1 =    0.521 microseconds
+Latency time from master to core     1 =    0.533 microseconds
  
-Communication speed from master to core     1 =  5582.99 MB/sec
+Communication speed from master to core     1 =  6669.06 MB/sec
 
-Total CPU time for main thread                    :        1.8 seconds
-Total CPU time summed for all threads             :        2.0 seconds
+Total CPU time for main thread                    :        2.9 seconds
+Total CPU time summed for all threads             :        3.3 seconds
 
 Elapsed time spent pre-processing model (/PREP7)  :        0.0 seconds
 Elapsed time spent solution - preprocessing       :        0.1 seconds
-Elapsed time spent computing solution             :        1.3 seconds
+Elapsed time spent computing solution             :        2.4 seconds
 Elapsed time spent solution - postprocessing      :        0.0 seconds
 Elapsed time spent post-processing model (/POST1) :        0.0 seconds
  
 Eigensolver used                                  :            Block Lanczos
-Equation solver computational rate                :       21.1 Gflops
-Equation solver effective I/O rate                :        7.6 GB/sec
+Equation solver computational rate                :       24.6 Gflops
+Equation solver effective I/O rate                :       13.6 GB/sec
 
-Maximum total memory used                         :      376.0 MB
+Maximum total memory used                         :      558.0 MB
 Maximum total memory allocated                    :     3136.0 MB
 Total physical memory available                   :         16 GB
 
-Total amount of I/O written to disk               :        0.0 GB
-Total amount of I/O read from disk                :        0.0 GB
+Total amount of I/O written to disk               :        0.1 GB
+Total amount of I/O read from disk                :        0.1 GB
 
 +------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
 
@@ -1537,11 +1525,11 @@ Total amount of I/O read from disk                :        0.0 GB
  |---------------------------------------------------------------------------|
  |                                                                           |
  | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
- | Maximum Database Used       7 MB    Maximum Scratch Memory Used    185 MB |
+ | Maximum Database Used      11 MB    Maximum Scratch Memory Used    266 MB |
  |                                                                           |
  |---------------------------------------------------------------------------|
  |                                                                           |
- |        CP Time      (sec) =          1.966       Time  =  04:22:25        |
- |        Elapsed Time (sec) =          3.000       Date  =  02/04/2019      |
+ |        CP Time      (sec) =          3.323       Time  =  04:26:17        |
+ |        Elapsed Time (sec) =          6.000       Date  =  02/04/2019      |
  |                                                                           |
  *---------------------------------------------------------------------------*

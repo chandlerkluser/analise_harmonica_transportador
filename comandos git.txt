@@ -1,4 +1,4 @@
 git log
 git add -A
-git commit --all -m "Malha refinada e interligada entre os corpos, falta fazer diferentes simulações"
+git commit --all -m "Resultados mais confiáveis com malha mais fina na plaquinha"
 git push

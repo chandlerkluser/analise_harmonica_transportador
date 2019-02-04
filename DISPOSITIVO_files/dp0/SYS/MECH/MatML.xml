@@ -250,19 +250,19 @@
               <Qualifier name="Normalized">True</Qualifier>
               <Qualifier name="Cached">True</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa25" format="float">
               <Data>200000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa35" format="float">
+            <ParameterValue parameter="pa36" format="float">
               <Data>0.3</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa36" format="float">
+            <ParameterValue parameter="pa37" format="float">
               <Data>166666666666.667</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa37" format="float">
+            <ParameterValue parameter="pa38" format="float">
               <Data>76923076923.0769</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
@@ -280,7 +280,7 @@
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Localized Name">Isotropic Relative Permeability</Qualifier>
-            <ParameterValue parameter="pa38" format="float">
+            <ParameterValue parameter="pa35" format="float">
               <Data>10000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
@@ -538,24 +538,20 @@
               <Qualifier name="Normalized">True</Qualifier>
               <Qualifier name="Cached">True</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa25" format="float">
-              <Data>78500000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-            </ParameterValue>
             <ParameterValue parameter="pa26" format="float">
               <Data>78500000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa27" format="float">
-              <Data>62198000000</Data>
+              <Data>78500000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa28" format="float">
-              <Data>0.2879</Data>
+              <Data>62198000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa29" format="float">
-              <Data>0.452</Data>
+              <Data>0.2879</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa30" format="float">
@@ -563,14 +559,18 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa31" format="float">
-              <Data>30000000000</Data>
+              <Data>0.452</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa32" format="float">
-              <Data>26000000000</Data>
+              <Data>30000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa33" format="float">
+              <Data>26000000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa34" format="float">
               <Data>26000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
@@ -588,7 +588,7 @@
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Localized Name">Isotropic Relative Permeability</Qualifier>
-            <ParameterValue parameter="pa38" format="float">
+            <ParameterValue parameter="pa35" format="float">
               <Data>10000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
             </ParameterValue>
@@ -689,52 +689,6 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa13">
-          <Name>Specific Heat</Name>
-          <Units name="Specific Heat Capacity">
-            <Unit>
-              <Name>J</Name>
-            </Unit>
-            <Unit power="-1">
-              <Name>kg</Name>
-            </Unit>
-            <Unit power="-1">
-              <Name>C</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa34">
-          <Name>Young's Modulus</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa35">
-          <Name>Poisson's Ratio</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa36">
-          <Name>Bulk Modulus</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa37">
-          <Name>Shear Modulus</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa38">
-          <Name>Relative Permeability</Name>
-          <Unitless />
-        </ParameterDetails>
         <ParameterDetails id="pa14">
           <Name>Thermal Conductivity</Name>
           <Units name="Thermal Conductivity">
@@ -751,18 +705,6 @@
         </ParameterDetails>
         <ParameterDetails id="pa15">
           <Name>Alternating Stress</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa16">
-          <Name>Cycles</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa17">
-          <Name>Mean Stress</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -819,7 +761,53 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa25">
-          <Name>Young's Modulus X direction</Name>
+          <Name>Young's Modulus</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa36">
+          <Name>Poisson's Ratio</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa37">
+          <Name>Bulk Modulus</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa38">
+          <Name>Shear Modulus</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa13">
+          <Name>Specific Heat</Name>
+          <Units name="Specific Heat Capacity">
+            <Unit>
+              <Name>J</Name>
+            </Unit>
+            <Unit power="-1">
+              <Name>kg</Name>
+            </Unit>
+            <Unit power="-1">
+              <Name>C</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa16">
+          <Name>Cycles</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa17">
+          <Name>Mean Stress</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -827,7 +815,7 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa26">
-          <Name>Young's Modulus Y direction</Name>
+          <Name>Young's Modulus X direction</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -835,7 +823,7 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa27">
-          <Name>Young's Modulus Z direction</Name>
+          <Name>Young's Modulus Y direction</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -843,18 +831,26 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa28">
+          <Name>Young's Modulus Z direction</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa29">
           <Name>Poisson's Ratio XY</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa29">
+        <ParameterDetails id="pa30">
           <Name>Poisson's Ratio YZ</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa30">
+        <ParameterDetails id="pa31">
           <Name>Poisson's Ratio XZ</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa31">
+        <ParameterDetails id="pa32">
           <Name>Shear Modulus XY</Name>
           <Units name="Stress">
             <Unit>
@@ -862,7 +858,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa32">
+        <ParameterDetails id="pa33">
           <Name>Shear Modulus YZ</Name>
           <Units name="Stress">
             <Unit>
@@ -870,13 +866,17 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa33">
+        <ParameterDetails id="pa34">
           <Name>Shear Modulus XZ</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
             </Unit>
           </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa35">
+          <Name>Relative Permeability</Name>
+          <Unitless />
         </ParameterDetails>
         <PropertyDetails id="pr0">
           <Unitless />
