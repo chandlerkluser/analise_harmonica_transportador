@@ -1,2 +1,4 @@
+git log
 git add -A
-git commit --all -m "Agora a malhagem dos sólidos foi integrada, falta ligar as malhas"
+git commit --all -m "Malha refinada e interligada entre os corpos, falta fazer diferentes simulações"
+git push
