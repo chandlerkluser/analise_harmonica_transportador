@@ -1,0 +1,11 @@
+/COM,ANSYS RELEASE Release 19.2      BUILD 19.2      UP20180808       04:52:09
+
+ *** WARNING ***                         CP =       0.281   TIME= 04:52:10
+ Specified range of 0 to 0 is not permitted.  The D command is ignored.  
+
+ *** WARNING ***                         CP =       0.281   TIME= 04:52:10
+ Specified range of 0 to 0 is not permitted.  The D command is ignored.  
+
+ *** WARNING ***                         CP =       0.281   TIME= 04:52:10
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    

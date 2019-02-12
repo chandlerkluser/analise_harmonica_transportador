@@ -1,4 +1,6 @@
+============= OPCIONAL =============
 git log
+============= OBRIGATÓRIO =============
 git add -A
 git commit --all -m "Parâmetros da liga de alumínio e do PZT-4 inseridos com os valores corretos no Workbench"
 git push

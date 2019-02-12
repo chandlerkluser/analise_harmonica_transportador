@@ -73,3 +73,8 @@ matlProp3.SetData(
     Variables=["Poisson's Ratio"],
     Values=[["0.33"]])
 Save(Overwrite=True)
+modelComponent1 = system2.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)

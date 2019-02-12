@@ -6,7 +6,7 @@
     <MatML_Doc>
       <Material DefaultSolidMaterial="True">
         <BulkDetails>
-          <Name>Structural Steel</Name>
+          <Name>Aluminio</Name>
           <Description>Fatigue Data at zero mean stress comes from 1998 ASME BPV Code, Section 8, Div 2, Table 5-110.1</Description>
           <PropertyData property="pr0">
             <Data format="string">-</Data>
@@ -60,7 +60,7 @@
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa7" format="float">
-              <Data>7850</Data>
+              <Data>2700</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Density</Qualifier>
             </ParameterValue>
@@ -277,23 +277,23 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa35" format="float">
-              <Data>200000000000</Data>
+            <ParameterValue parameter="pa25" format="float">
+              <Data>70000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Young's Modulus</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa36" format="float">
-              <Data>0.3</Data>
+            <ParameterValue parameter="pa26" format="float">
+              <Data>0.33</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Poisson's Ratio</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa37" format="float">
-              <Data>166666666666.667</Data>
+            <ParameterValue parameter="pa27" format="float">
+              <Data>68627450980.3922</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Bulk Modulus</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa38" format="float">
-              <Data>76923076923.0769</Data>
+            <ParameterValue parameter="pa28" format="float">
+              <Data>26315789473.6842</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Shear Modulus</Qualifier>
             </ParameterValue>
@@ -311,7 +311,7 @@
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Localized Name">Isotropic Relative Permeability</Qualifier>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa29" format="float">
               <Data>10000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Relative Permeability</Qualifier>
@@ -597,48 +597,48 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa25" format="float">
-              <Data>78500000000</Data>
+            <ParameterValue parameter="pa30" format="float">
+              <Data>81301000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Young's Modulus X direction</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa26" format="float">
-              <Data>78500000000</Data>
+            <ParameterValue parameter="pa31" format="float">
+              <Data>81301000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Young's Modulus Y direction</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa27" format="float">
-              <Data>62198000000</Data>
+            <ParameterValue parameter="pa32" format="float">
+              <Data>64516000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Young's Modulus Z direction</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa28" format="float">
-              <Data>0.2879</Data>
+            <ParameterValue parameter="pa33" format="float">
+              <Data>0.3293</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Poisson's Ratio XY</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa29" format="float">
-              <Data>0.452</Data>
+            <ParameterValue parameter="pa34" format="float">
+              <Data>0.4317</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Poisson's Ratio YZ</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa30" format="float">
-              <Data>0.452</Data>
+            <ParameterValue parameter="pa35" format="float">
+              <Data>0.4317</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Poisson's Ratio XZ</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa31" format="float">
-              <Data>30000000000</Data>
+            <ParameterValue parameter="pa36" format="float">
+              <Data>15291000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Shear Modulus XY</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa32" format="float">
-              <Data>26000000000</Data>
+            <ParameterValue parameter="pa37" format="float">
+              <Data>12821000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Shear Modulus YZ</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa33" format="float">
-              <Data>26000000000</Data>
+            <ParameterValue parameter="pa38" format="float">
+              <Data>12821000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Shear Modulus XZ</Qualifier>
             </ParameterValue>
@@ -656,7 +656,7 @@
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Localized Name">Isotropic Relative Permeability</Qualifier>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa29" format="float">
               <Data>10000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Relative Permeability</Qualifier>
@@ -689,42 +689,6 @@
         </ParameterDetails>
         <ParameterDetails id="pa4">
           <Name>Compressive Ultimate Strength</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa35">
-          <Name>Young's Modulus</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa36">
-          <Name>Poisson's Ratio</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa37">
-          <Name>Bulk Modulus</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa38">
-          <Name>Shear Modulus</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa5">
-          <Name>Compressive Yield Strength</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -884,7 +848,7 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa25">
-          <Name>Young's Modulus X direction</Name>
+          <Name>Young's Modulus</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -892,15 +856,11 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa26">
-          <Name>Young's Modulus Y direction</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
+          <Name>Poisson's Ratio</Name>
+          <Unitless />
         </ParameterDetails>
         <ParameterDetails id="pa27">
-          <Name>Young's Modulus Z direction</Name>
+          <Name>Bulk Modulus</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -908,19 +868,35 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa28">
-          <Name>Poisson's Ratio XY</Name>
-          <Unitless />
+          <Name>Shear Modulus</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
         </ParameterDetails>
         <ParameterDetails id="pa29">
-          <Name>Poisson's Ratio YZ</Name>
+          <Name>Relative Permeability</Name>
           <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa5">
+          <Name>Compressive Yield Strength</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
         </ParameterDetails>
         <ParameterDetails id="pa30">
-          <Name>Poisson's Ratio XZ</Name>
-          <Unitless />
+          <Name>Young's Modulus X direction</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
         </ParameterDetails>
         <ParameterDetails id="pa31">
-          <Name>Shear Modulus XY</Name>
+          <Name>Young's Modulus Y direction</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -928,7 +904,7 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa32">
-          <Name>Shear Modulus YZ</Name>
+          <Name>Young's Modulus Z direction</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
@@ -936,16 +912,40 @@
           </Units>
         </ParameterDetails>
         <ParameterDetails id="pa33">
-          <Name>Shear Modulus XZ</Name>
+          <Name>Poisson's Ratio XY</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa34">
+          <Name>Poisson's Ratio YZ</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa35">
+          <Name>Poisson's Ratio XZ</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa36">
+          <Name>Shear Modulus XY</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa34">
-          <Name>Relative Permeability</Name>
-          <Unitless />
+        <ParameterDetails id="pa37">
+          <Name>Shear Modulus YZ</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa38">
+          <Name>Shear Modulus XZ</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
         </ParameterDetails>
         <PropertyDetails id="pr0">
           <Unitless />
@@ -1017,16 +1017,14 @@
   <ANSYSWBTransferData>
     <Materials>
       <Material>
-        <Name>Structural Steel</Name>
-        <DataTransferID>678cced3-0724-4434-8ad0-2fefac24e2e3</DataTransferID>
-        <PreviousTransferIDs>
-        </PreviousTransferIDs>
+        <Name>Aluminio</Name>
+        <DataTransferID>40c1e744-b7a2-4ebd-b6c0-99dc04bc6923</DataTransferID>
+        <PreviousTransferIDs>678cced3-0724-4434-8ad0-2fefac24e2e3,,2bcfe745-276c-4a76-ad77-abd55fd89950,,</PreviousTransferIDs>
       </Material>
       <Material>
         <Name>Piezo</Name>
-        <DataTransferID>625efd7b-588c-40c9-8a86-303448dec93f</DataTransferID>
-        <PreviousTransferIDs>
-        </PreviousTransferIDs>
+        <DataTransferID>7b20b379-2728-4be7-916c-df6bcd94cb25</DataTransferID>
+        <PreviousTransferIDs>625efd7b-588c-40c9-8a86-303448dec93f,,e7ee2480-4b14-47ad-bcb0-f5dd067651df,,</PreviousTransferIDs>
       </Material>
     </Materials>
   </ANSYSWBTransferData>
