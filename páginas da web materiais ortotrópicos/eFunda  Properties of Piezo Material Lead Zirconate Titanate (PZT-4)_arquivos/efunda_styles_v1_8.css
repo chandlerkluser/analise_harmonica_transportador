@@ -1,0 +1,85 @@
+﻿* { 
+  box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+}
+
+body td {font-size: 13px; font-family: Verdana, Arial, Sans-serif; color:#333333;}
+
+.IndexSideElement {font-size: 13px; font-family: Verdana, Arial, Sans-serif; color:#333333;}
+.SectionTitle	{font-size: 20px; font-family: Verdana; color:#333333; line-height:25px;}
+.title {font-size: 17px; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:23px;}
+.titlefootnote {font-size: 13px; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:17px;}
+.Text {font-size: 15px; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:23px;}
+.SmallText {font-size: 13px; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:23px;}
+.SmallNarrow {font-size: 13px; font-family: Arial, Sans-serif; color:#333333; line-height:23px;}
+.FootnoteText {font-size: 10px; font-style: normal; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:17px;}
+.SmallCourier {font-size: 10px; font-family: Courier, Verdana, Arial, Sans-serif; color:#333333; line-height:23px;}
+
+.sideBarMenu {font-size: 12px; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:18px;}
+.sideBarMenu td{font-size: 12px; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:18px;}
+.sideBarMenuu td.smalltext{font-size: 12px; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:18px;}
+.sideBarMenu td.footnotetext{font-size: 10px; font-family: Verdana, Arial, Sans-serif; color:#333333; line-height:14px;}
+
+.blue {color:blue}
+.navy {color:navy}
+.red {color:firebrick}
+.green {color:green}
+.maroon {color:maroon}
+.black {color:black}
+.orange {color:#cc6900}
+.gray {color:#333333}
+.greengray {color:#888877}
+.purple {color:#800080}
+
+a:hover {color:firebrick;}
+a:visited {color:DimGray;}
+
+a.title0:link {color:#333333;text-decoration:none}
+a.title0:visited {color:#333333;text-decoration:none}
+a.title0:hover {color:firebrick;text-decoration:underline}
+
+a.title1:link {color:#333333;text-decoration:none}
+a.title1:visited {color:#333333;text-decoration:none}
+a.title1:hover {color:firebrick;text-decoration:underline}
+
+a.intext:link {color:#333399;text-decoration:none}
+a.intext:visited {color:firebrick;text-decoration:none}
+a.intext:hover {color:firebrick;text-decoration:underline}
+
+a.intextgray:link {color:gray;text-decoration:none}
+a.intextgray:visited {color:gray;text-decoration:none}
+a.intextgray:hover {color:firebrick;text-decoration:underline}
+
+a.menu:link {color:#DDDDDD;text-decoration:none}
+a.menu:visited {color:#DDDDDD;text-decoration:none}
+a.menu:hover {color:orange;text-decoration:none}
+a.menu2:link {color:white;text-decoration:none}
+a.menu2:visited {color:white;text-decoration:none}
+a.menu2:hover {color:firebrick;text-decoration:none}
+
+a.offer {font-size:11px; line-height:15px;}
+a.offer:link {color:#679E05;text-decoration:none}
+a.offer:visited {color:#679E05;text-decoration:none}
+a.offer:hover {color:orange;text-decoration:none}
+
+.TPtable{font-family:verdana,arial,helvetica; background:#F3F5E7; border-color:#FFFFFF;border-collapse:collapse;width:158}
+.TPheader{text-decoration:none; font-size: 1px; font-weight:normal; font-style:normal; color:#F3F5E7; padding:0px; text-align:center; background:#F3F5E7;}
+.TProw{text-decoration:none; font-size: 10px; font-weight:normal; font-style:normal; color:#F3F5E7; padding-bottom:5px;}
+
+a.TProw{text-decoration:none; font-size: 10px; font-weight:normal; font-style:normal; color:#000000;}
+a:hover.TProw{text-decoration:underline; font-size: 10px; font-weight:normal; font-style:normal; color:#FF0000;}
+
+a.googleAdTitle:link {font-family:verdana, sans-serif; font-size:14px; font-weight:bold; line-height:16px; color:#333399; text-decoration:none; border-bottom:1px solid #333399;}
+a.googleAdTitle:visited {font-family:verdana, sans-serif; font-size:14px; font-weight:bold; line-height:16px; color:#333399; text-decoration:none; border-bottom:1px solid #333399;}
+a.googleAdTitle:hover {font-family:verdana, sans-serif; font-size:14px; font-weight:bold; line-height:16px; color:#E0AA00; text-decoration:none;  border-bottom:1px solid #E0AA00;}
+
+.googleAdContent {font-family:verdana, sans-serif; font-size:12px; color:#666666; text-decoration:none}
+
+a.googleAdContent:link {font-family:verdana, sans-serif; font-size:12px; color:#666666; text-decoration:none}
+a.googleAdContent:visited {font-family:verdana, sans-serif; font-size:12px; color:#666666; text-decoration:none}
+a.googleAdContent:hover {font-family:verdana, sans-serif; font-size:12px; color:#E0AA00; text-decoration:underline}
+
+a.googleAdLink:link {font-family:verdana, sans-serif; font-size:12px; color:#666666; text-decoration:none}
+a.googleAdLink:visited {font-family:verdana, sans-serif; font-size:12px; color:#666666; text-decoration:none}
+a.googleAdLink:hover {font-family:verdana, sans-serif; font-size:12px; color:#E0AA00; text-decoration:underline}
+

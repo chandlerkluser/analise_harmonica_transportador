@@ -1,0 +1,459 @@
+<html style="height:100%;"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body style="height:100%;" topmargin="0" marginwidth="0" marginheight="0" link="#333399" leftmargin="0"><a name="PageTop"></a>
+
+
+
+
+
+
+  
+  <meta name="AUTHOR" content="eFunda, Inc.">
+  <meta name="DESCRIPTION" content="Stiffness and compliance matrices for orthotropic materials are presented in terms of Young's modulii, shear modulii, and Poisson's ratios.">
+  <meta name="KEYWORDS" content="Hooke's Law, eFunda, Formula , bulk , compliance , components , compression , constitutive , deformation , dependent , elasticity , elongation , extension , forces , Hooke's, Hookes, Hook's, Hooks , law , materials , matrix, matrices , mechanics , modulus, modulii , orthotropic , Poisson's, Poissons , powers , ratios , relationships , S, C , stiffness , strains , stress-strain, strain-stress , stresses , Young's, Youngs">
+  <link rel="stylesheet" type="text/css" href="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/efunda_styles_v1_8.css">
+  <link rel="stylesheet" type="text/css" href="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/round_border_v1_1.css">
+  <title>Hooke's Law for Orthotropic Materials</title>
+  
+
+  <script type="text/javascript" async="" src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/ga.js"></script><script async="async" src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/gpt.js"></script>
+  <script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+  </script>
+  
+
+
+
+
+
+
+<table width="938" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+  <td width="154" valign="top" bgcolor="303060"><a href="http://www.efunda.com/"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/logo_slim.jpg" alt="engineering fundamentals" border="0"></a></td>
+  <td style="padding-right:5px; padding-bottom:3px; background-size:100% 37px;" valign="bottom" bgcolor="303060" background="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/title_bg_slim.jpg" align="right">
+    <span class="title" style="color:#DDDDDD;">Hooke's Law: Orthotropic Materials</span><br>
+    <span class="footnotetext" style="color:silver;">
+    <a href="http://www.efunda.com/eds/eds_home.cfm" class="menu">Directory</a> |
+    <a href="http://www.engineering.com/Jobs/eFunda_Jobs.aspx" class="menu">Career</a> |
+    <a href="http://www.efunda.com/news/moreover.cfm" class="menu">News</a> |
+    <a href="http://www.efunda.com/ThomasClick.cfm" class="menu">Industrial</a>
+    </span>
+  </td>
+</tr>
+<tr><td colspan="3" valign="top" align="left"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/gap_new.gif" width="938" height="3"></td></tr>
+</tbody></table>
+
+
+
+
+
+
+<table width="938" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td id="firstMainColumn" width="200" valign="top">
+
+<div id="sideBarMenu" class="sideBarMenu" style="background:#E0E0A0;" align="center"> 
+
+
+
+
+<table 198""="" width="width=" cellspacing="0" cellpadding="1" border="0">
+
+  <tbody><tr> 
+    <td width="10"></td>
+    <td width="184"></td>
+  </tr>
+  
+  
+  
+  <tr bgcolor="#eeeee0">
+    <td colspan="2" class="smalltext" align="center"><a href="http://www.efunda.com/formulae/" class="title1"><b>Formula Home</b></a></td>
+  </tr>
+
+  
+  
+
+  <tr>
+    <td valign="top"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/dot.gif"></td>
+    <td class="smalltext"><b>Mechanics of Matl.</b></td>
+  </tr>
+
+  
+  
+    <tr>
+      <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+      <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/stress.cfm" class="title1">Stress</a></td>
+    </tr>
+    
+    <tr>
+      <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+      <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/strain.cfm" class="title1">Strain</a></td>
+    </tr>
+    
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/hooke.cfm" class="title1">Hooke's Law</a></td>
+  </tr>
+
+	      <tr bgcolor="ccffcc">
+	        <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+	        <td class="footnotetext">&nbsp;&nbsp;Orthotropic Material</td>
+	      </tr>
+	    
+	      <tr>
+	        <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+	        <td class="footnotetext">&nbsp;&nbsp;<a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/hooke_iso_transverse.cfm" class="title1">Transverse Isotropic</a></td>
+	      </tr>
+	    
+	      <tr>
+	        <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+	        <td class="footnotetext">&nbsp;&nbsp;<a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/hooke_isotropic.cfm" class="title1">Isotropic Material</a></td>
+	      </tr>
+	    
+	      <tr>
+	        <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+	        <td class="footnotetext">&nbsp;&nbsp;<a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/hooke_plane_stress.cfm" class="title1">Plane Stress</a></td>
+	      </tr>
+	    
+	      <tr>
+	        <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+	        <td class="footnotetext">&nbsp;&nbsp;<a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/hooke_plane_strain.cfm" class="title1">Plane Strain</a></td>
+	      </tr>
+	    
+	      <tr>
+	        <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+	        <td class="footnotetext">&nbsp;&nbsp;<a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/elastic_constants_E_nu.cfm" class="title1">Finding <i>E</i> and <font face="&quot;Symbol&quot;">n</font></a></td>
+	      </tr>
+	    
+	      <tr>
+	        <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+	        <td class="footnotetext">&nbsp;&nbsp;<a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/elastic_constants_G_K.cfm" class="title1">Finding <i>G</i> and <i>K</i></a></td>
+	      </tr>
+	     
+
+  <tr>
+    <td valign="top"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/dot.gif"></td>
+    <td class="smalltext"><b>Applications</b></td>
+  </tr>
+  
+  
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/pressure_vessel.cfm" class="title1">Pressure Vessels</a></td>
+  </tr>
+
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/strain_gage_rosette.cfm" class="title1">Rosette Strain Gages</a></td>
+  </tr>
+
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/failure_criteria/failure_criteria.cfm" class="title1">Failure Criteria</a></td>
+  </tr>
+
+
+  <tr>
+    <td valign="top"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/dot.gif"></td>
+    <td class="smalltext"><b>Calculators</b></td>
+  </tr>
+  
+  
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/calc_stress_transform.cfm" class="title1">Stress Transform</a></td>
+  </tr>
+
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/calc_strain_transform.cfm" class="title1">Strain Transform</a></td>
+  </tr>
+
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/calc_principal_stress.cfm" class="title1">Principal Stress</a></td>
+  </tr>
+
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/calc_principal_strain.cfm" class="title1">Principal Strain</a></td>
+  </tr>
+
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/calc_elastic_constants.cfm" class="title1">Elastic Constants</a></td>
+  </tr>
+
+  
+  <tr>
+    <td valign="top"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/dot.gif"></td>
+    <td class="smalltext"><b>Resources</b></td>
+  </tr>
+  
+  <tr>
+    <td valign="top"><spacer type="block" width="1" height="1"></spacer></td>
+    <td class="smalltext"><a href="http://www.efunda.com/formulae/bibliography.cfm" class="title1">Bibliography</a></td>
+  </tr>
+
+</tbody></table>
+
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  
+	    <tbody><tr><td colspan="2" height="1"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/menu_gap.gif" width="200" height="2"></td></tr>
+	    <tr bgcolor="DarkKhaki">
+	    	<td width="14" align="center"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/menu_arrow.gif" width="10" height="16"></td>
+	    	<td class="smalltext" width="186" height="25"><a class="title1" href="http://www.efunda.com/members/login/login.cfm?direct=y" style="color:white;"><b>Login</b></a></td>
+	    </tr>
+	   
+  
+  <tr><td colspan="2" height="1"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/menu_gap.gif" width="200" height="2"><br><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/side_bar_bottom_v2.jpg" border="0"></td></tr>
+  
+</tbody></table>
+
+</div> 
+
+<div id="magazineModule" style="display: block;"></div><div id="firstColumnBalance" style="display: block;"></div>
+
+  <div style="padding:10px 20px 0px 20px;">
+    <!--- Globalspec 160x600 Ad Tag --->
+<div id="skyscraper1">
+<script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.pubads().display('/4250/eFunda', [160, 600], 'skyscraper1');
+});
+</script>
+</div>
+  </div>
+  
+
+
+
+
+</td>
+<td width="10"> 
+  <img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/pixel.gif" width="10" height="1">
+</td>
+<td class="smalltext" style="height:600px;" width="728" valign="top" align="left"> 
+
+  
+    <div style="padding:10px 0px 10px 0px;" align="center"><!--- GlobalSpec 728x90 Ad Tag --->
+<div id="leaderboard1">
+<script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.pubads().display('/4250/eFunda', [728, 90], 'leaderboard1');
+});
+</script>
+</div></div>
+  
+  
+  <div style="width:728px; background-color:#F6EFCE; margin-bottom:1px;" align="center">
+    <div style="padding:5px; border:1px solid #E5CC6C; ">
+    <form action="http://www.efunda.com/search/search_efunda.cfm" id="cse-search-box" style="margin:0px; padding:0px;">
+      
+      <input type="hidden" name="search_scope" value="all">
+      <input type="hidden" name="cx" value="partner-pub-4893968732705577:8p6b3e740e7">
+      <input type="hidden" name="cof" value="FORID:11">
+      <input type="hidden" name="ie" value="UTF-8">
+      <input type="text" class="smalltext" style="width:250px;" name="q" size="31">
+      <input type="submit" class="smalltext" style="width:140px; font-weight:bold;" name="sa" value="Search efunda">
+    </form>  
+    </div>
+  </div>
+  <table width="728" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td class="footnotetext" style="padding:2px; background-color:#E5CC6C;border-right:1px solid white;" align="center"><a class="menu2" href="http://www.efunda.com/home.cfm"><b>Home</b></a></td>
+    <td class="footnotetext" style="padding:2px; background-color:#E5CC6C;border-right:1px solid white;" align="center"><a class="menu2" href="http://www.efunda.com/whyjoin.cfm"><b>Membership</b></a></td>
+    <td class="footnotetext" style="padding:2px; background-color:#679E05;border-right:1px solid white;" align="center"><a class="menu2" href="http://efunda.tradepub.com/">Magazines</a><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/ir.gif" alt="" style="border:none !important; margin:0px !important;" width="1" height="1" border="0"></td>
+    <td class="footnotetext" style="padding:2px; background-color:#E5CC6C;border-right:1px solid white;" align="center"><a class="menu2" href="http://www.efunda.com/forum/forum.cfm"><b>Forum</b></a></td>
+    <td class="footnotetext" style="padding:2px; background-color:#E5CC6C;border-right:1px solid white;" align="center"><a class="menu2" href="http://www.efunda.com/members/people/search_people.cfm"><b>Search Member</b></a></td>
+    <td class="footnotetext" style="padding:2px; background-color:#E5CC6C;" align="center"><a class="menu2" href="http://www.efunda.com/calculator.cfm"><b>Calculators</b></a></td>
+  </tr>
+  </tbody></table>
+  
+  <table width="728" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr><td colspan="13" height="6"></td></tr>
+  <tr>
+    <td width="11" valign="bottom"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/llc1.gif" border="0"></td>
+    <td class="footnotetext" width="101" align="center"><a href="http://www.efunda.com/materials/"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/title4.gif" border="0" align="absmiddle"></a><br><a class="title1" href="http://www.efunda.com/materials/">Materials</a></td>
+    <td width="21" valign="bottom"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/mid_peg1.gif" border="0"></td>
+    <td class="footnotetext" width="100" align="center"><a href="http://www.efunda.com/DesignStandards/"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/title3.gif" border="0" align="absmiddle"></a><br><a class="title1" href="http://www.efunda.com/DesignStandards/">Design</a></td>
+    <td width="21" valign="bottom"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/mid_peg1.gif" border="0"></td>
+    <td class="footnotetext" width="100" align="center"><a href="http://www.efunda.com/processes/"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/title2.gif" border="0" align="absmiddle"></a><br><a class="title1" href="http://www.efunda.com/processes/">Processes</a></td>
+    <td width="21" valign="bottom"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/mid_peg1.gif" border="0"></td> 
+    <td class="footnotetext" width="100" align="center"><a href="http://www.efunda.com/units/"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/title5.gif" border="0" align="absmiddle"></a><br><a class="title1" href="http://www.efunda.com/units/">Units</a></td>
+    <td width="21" valign="bottom"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/mid_peg1.gif" border="0"></td>
+    <td class="footnotetext" width="100" align="center"><a href="http://www.efunda.com/formulae/"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/title6.gif" border="0" align="absmiddle"></a><br><a class="title1" href="http://www.efunda.com/formulae/">Formulas</a></td>
+    <td width="21" valign="bottom"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/mid_peg1.gif" border="0"></td>
+    <td class="footnotetext" width="100" align="center"><a href="http://www.efunda.com/math/"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/title1.gif" border="0" align="absmiddle"></a><br><a class="title1" href="http://www.efunda.com/math/">Math</a></td>
+    <td width="11" valign="bottom" align="right"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/lrc1.gif" border="0"></td>
+  </tr>
+  <tr><td colspan="13" height="3"></td></tr>
+  </tbody></table>
+
+  
+  
+  <div style="padding:10px 0px 10px 0px;" align="center"><!--- eFunda House Tag Top Leaderboard --->
+<script async="" src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4893968732705577" data-ad-slot="2297108375"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> 
+
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+
+	<tbody><tr><td height="20"></td></tr>
+
+	<tr><td class="text"><b><a name="None">Orthotropic Definition</a></b></td></tr>
+	<tr><td height="4"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/section_bar_1.png"></td></tr>
+	<tr><td height="10"></td></tr>
+
+<tr><td class="smalltext">
+Some engineering materials, including certain piezoelectric materials (e.g. <a href="http://www.efunda.com/materials/piezo/material_data/matdata_output.cfm?Material_ID=Rochelle_Salt">Rochelle salt</a>) and 2-ply fiber-reinforced composites, are <b><span class="green">orthotropic</span></b>.
+<p>
+By definition, an orthotropic material has at least 2 orthogonal planes 
+of symmetry, where material properties are independent of direction 
+within each plane. Such materials require 9 independent variables (i.e. 
+elastic constants) in their constitutive matrices.
+</p><p>
+In contrast, a material without any planes of symmetry is fully <a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/hooke.cfm#GeneralizedHooke">anisotropic</a>
+ and requires 21 elastic constants, whereas a material with an infinite 
+number of symmetry planes (i.e. every plane is a plane of symmetry) is <a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/hooke_isotropic.cfm">isotropic</a>, and requires only 2 elastic constants.
+</p></td></tr>
+<tr><td height="20"></td></tr>
+
+
+
+
+	<tr><td height="20"></td></tr>
+
+	<tr><td class="text"><b><a name="OrthotropicHooke">Hooke's Law in Compliance Form</a></b></td></tr>
+	<tr><td height="4"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/section_bar_1.png"></td></tr>
+	<tr><td height="10"></td></tr>
+
+<tr><td class="smalltext">
+By convention, the 9 elastic constants in orthotropic constitutive equations are comprised of 3<sub>&nbsp;</sub> Young's modulii <i>E<sub>x</sub></i>, <i>E<sub>y</sub></i>, <i>E<sub>z</sub></i>, the 3 Poisson's ratios <font face="Symbol">n</font><sub><i>yz</i></sub>, <font face="Symbol">n</font><sub><i>zx</i></sub>, <font face="Symbol">n</font><sub><i>xy</i></sub>, and the 3 shear modulii <i>G<sub><i>yz</i></sub></i>, <i>G<sub><i>zx</i></sub></i>, <i>G<sub><i>xy</i></sub></i>.
+<p>
+The <b><span class="blue">compliance matrix</span></b> takes the form,
+</p><p>
+</p><div align="center"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/Hooke4OrthoB.gif" alt="" border="0"></div>
+<p>
+where <img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/Hooke4OrthoBSym.gif" alt="" border="0" align="absmiddle">.
+</p><p>
+Note that, in orthotropic materials, there is no interaction between the normal stresses <font face="Symbol">s</font><sub><i>x</i></sub>, <font face="Symbol">s</font><sub><i>y</i></sub>, <font face="Symbol">s</font><sub><i>z</i></sub> and the shear strains <font face="Symbol">e</font><sub><i>yz</i></sub>, <font face="Symbol">e</font><sub><i>zx</i></sub>, <font face="Symbol">e</font><sub><i>xy</i></sub>
+</p><p>
+The factor 1/2 multiplying the shear modulii in the compliance matrix results from the difference between shear strain and <a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/strain.cfm#engstrain">engineering shear strain</a>, where <img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/EngShearStress.gif" alt="" border="0" align="absmiddle">, etc.
+</p></td></tr>
+
+
+
+  </tbody></table> 
+  
+  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+
+	<tbody><tr><td height="20"></td></tr>
+
+	<tr><td class="text"><b><a name="OrthotropicHooke">Hooke's Law in Stiffness Form</a></b></td></tr>
+	<tr><td height="4"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/section_bar_1.png"></td></tr>
+	<tr><td height="10"></td></tr>
+
+<tr><td class="smalltext">
+The <b><span class="blue">stiffness matrix</span></b> for orthotropic materials, found from the inverse of the compliance matrix, is given by,
+<p>
+</p><div align="center"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/Hooke4Ortho.gif" alt="" border="0"></div>
+<p>
+where,
+</p><p>
+</p><div align="center"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/Hooke4OrthoCoeff.gif" alt="" border="0"></div>
+<p>
+The fact that the stiffness matrix is symmetric requires that the following statements hold,
+</p><p>
+</p><div align="center"><img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/Hooke4OrthoSym.gif" alt="" border="0"></div>
+<p>
+The factor of 2 multiplying the shear modulii in the stiffness matrix results from the difference between shear strain and <a href="http://www.efunda.com/formulae/solid_mechanics/mat_mechanics/strain.cfm#engstrain">engineering shear</a> strain, where <img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/EngShearStress.gif" alt="" border="0" align="absmiddle">, etc.
+
+</p></td></tr>
+</tbody></table>
+
+
+
+
+      <div style="padding:50px 0px 10px 0px;" align="center"><!--- eFunda House Tag Bottom Leaderboard --->
+<script async="" src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4893968732705577" data-ad-slot="6190754377"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+    
+
+
+</td> 
+</tr>
+</tbody></table><iframe id="aswift_1" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"><iframe id="google_ads_frame0"></iframe></iframe><iframe id="aswift_2" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"><iframe id="google_ads_frame1"></iframe></iframe><iframe id="aswift_1" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"><iframe id="google_ads_frame0"></iframe></iframe><iframe id="aswift_2" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"><iframe id="google_ads_frame1"></iframe></iframe>
+
+
+  <div style="width:943; padding-top:30px;" align="right">
+  <table width="731" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>    
+      <td class="footnotetext" style="padding-right:20px; width:731px; height:40px; background-image:url('http://www.efunda.com/images/page_bottom_1.png'); background-repeat:no-repeat;" width="100%" align="right">
+            
+      </td>
+    </tr>
+    <tr><td class="footnotetext" align="center">
+      <a href="http://www.efunda.com/home.cfm" style="color:#990000;"><b>Home</b></a>&nbsp;
+      <a href="http://www.efunda.com/whyjoin.cfm">Membership</a>&nbsp; 
+      <a href="http://www.efunda.com/about/about.cfm">About Us</a>&nbsp;
+      <a href="http://www.efunda.com/members/privacy.cfm">Privacy</a>&nbsp;
+      <a href="http://www.efunda.com/disclaimer.cfm">Disclaimer</a>&nbsp;
+      <a href="http://www.efunda.com/about/contact.cfm">Contact</a>&nbsp;
+      <a href="http://dhmedia.com/media-sales/efunda.html">Advertise</a>
+      <br>
+      <img src="Hooke's%20Law%20for%20Orthotropic%20Materials_arquivos/pixel.gif" width="1" height="5"><br><span class="footnotetext">Copyright © 2019 eFunda, Inc.</span>
+    </td></tr>
+    <tr><td height="20"></td></tr>
+  </tbody></table>
+  </div>
+   
+
+
+
+
+<script language="JavaScript">
+<!--
+function opensubwindow(){  
+  newsubwindow=window.open("","eFundaSubWin","screenX=50,screenY=50,left=50,top=50,toolbar=no,status=no,menubar=no,width=640,height=400,scrollbars=yes,resizable=yes,dependent=yes,directories=no");
+newsubwindow.focus();
+}
+document.getElementById('magazineModule').style.display ='block';
+var sideBarBalance=document.getElementById("firstMainColumn").offsetHeight-document.getElementById("sideBarMenu").offsetHeight-document.getElementById("magazineModule").offsetHeight;
+if (sideBarBalance > 300) {
+  document.getElementById('firstColumnBalance').style.display ='block';
+}
+//-->
+</script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3040031-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body></html>
