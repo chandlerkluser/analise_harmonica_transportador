@@ -2,5 +2,5 @@
 git log
 ============= OBRIGATÓRIO =============
 git add -A
-git commit --all -m "Parâmetros da liga de alumínio e do PZT-4 inseridos com os valores corretos no Workbench"
+git commit --all -m "Malhagem sem erros e parâmetros inseridos corretamente, resultados de análise modal completos!! Falta análise harmônica"
 git push
